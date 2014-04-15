@@ -1,0 +1,600 @@
+0000000000000000000000000000000000000000 7e576c1422d37500ed541e21baeb7e321fe2a654 shenchun <shenchun@pset.suntec.net> 1394624225 +0800	commit (initial): clean kernel
+7e576c1422d37500ed541e21baeb7e321fe2a654 8b0830dac14cedab420702ce8701b820fb12f504 shenchun <shenchun@pset.suntec.net> 1394624227 +0800	am: ENGR00081147 Support i.MX35 3stack board
+8b0830dac14cedab420702ce8701b820fb12f504 4cc1f95d3224da57a83f40b1d17bc5d269b3daff shenchun <shenchun@pset.suntec.net> 1394624227 +0800	am: ENGR00094618 Update .gitignore configure file
+4cc1f95d3224da57a83f40b1d17bc5d269b3daff a5b2c68b93ceb40209d2fc0c0ed283c5c1f2c79b shenchun <shenchun@pset.suntec.net> 1394624227 +0800	am: ENGR00094619 Support i.MX31 3stack board
+a5b2c68b93ceb40209d2fc0c0ed283c5c1f2c79b 2b5cd6f0ff781bc184846c32da8a3391681b03a1 shenchun <shenchun@pset.suntec.net> 1394624227 +0800	am: ENGR00099697 Add nand driver for mx35
+2b5cd6f0ff781bc184846c32da8a3391681b03a1 b30f4e1dd2060223258602bbf9b4bfcbb1591602 shenchun <shenchun@pset.suntec.net> 1394624227 +0800	am: ENGR00102776 Support boot from NAND on i.mx35 3stack TO1
+b30f4e1dd2060223258602bbf9b4bfcbb1591602 dd068a6aa53f5ebd805271e4497b7e3b66aa8fb7 shenchun <shenchun@pset.suntec.net> 1394624227 +0800	am: ENGR00102788 Remove CONFIG_NAND_BOOT on i.MX31 3stack
+dd068a6aa53f5ebd805271e4497b7e3b66aa8fb7 7d0e81daa9a57288c98e1c979db4513e7f1e2d08 shenchun <shenchun@pset.suntec.net> 1394624227 +0800	am: ENGR00103914 Support i.MX35 TO2 and 3stack board version 2
+7d0e81daa9a57288c98e1c979db4513e7f1e2d08 84c58bd61a80c45e7a985620a64266f202a3b52a shenchun <shenchun@pset.suntec.net> 1394624227 +0800	am: ENGR00104583 MX35 can not boot up kernel
+84c58bd61a80c45e7a985620a64266f202a3b52a 9c5e21156bd9d4655ab8a71219fcedfd80f8ae96 shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00107886 Porting MX31, MX35 3stack to u-boot V2009.01
+9c5e21156bd9d4655ab8a71219fcedfd80f8ae96 e8a2a258002661d724bbb28754069152cbb56ca6 shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00108473 Porting i.MX51 3stack TO2 support to V2009.01
+e8a2a258002661d724bbb28754069152cbb56ca6 2f281eca8cfedcd0287af47577c106164140633d shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00108673 Add i.MX25 core to U-Boot
+2f281eca8cfedcd0287af47577c106164140633d 0c4a5ea3eb994d4b0fa875ec1e44c8dca17a4562 shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00107840 Add U-Boot for MX25 PDK board
+0c4a5ea3eb994d4b0fa875ec1e44c8dca17a4562 beb4e7b0317c136aefc61d044b5573425ca1b46e shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00109851 Add nand driver for MX51 uboot
+beb4e7b0317c136aefc61d044b5573425ca1b46e 64dd26b29cc1d5de86005627f1e8f59fa5a69de3 shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00110586 MX31: Resolve Copyright issue for mx31 files
+64dd26b29cc1d5de86005627f1e8f59fa5a69de3 9dfc3059a787debb12e60df7137ea1250cc68350 shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00112298 BBG2: Basic boot.
+9dfc3059a787debb12e60df7137ea1250cc68350 7cc4d01c998a06aff93ee5b840eaacf4b8e7579a shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00112273 BBG2: MMC boot support.
+7cc4d01c998a06aff93ee5b840eaacf4b8e7579a aa58be7a88b44198017650e3cfb83710feda886d shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00112845 spi nor boot and pmic support for BBG2.
+aa58be7a88b44198017650e3cfb83710feda886d d9f9a45354ae153c25324e8d286bed16ad230d53 shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00113148 Add build option to uboot for different media type
+d9f9a45354ae153c25324e8d286bed16ad230d53 272e0f166120cfb66efd184fd47c0fb9b200097e shenchun <shenchun@pset.suntec.net> 1394624228 +0800	am: ENGR00113439: BBG2, enable SPI NOR and MMC in one image.
+272e0f166120cfb66efd184fd47c0fb9b200097e 9dbd2dfcabd60203cbc675ddf63d98424e2e82bd shenchun <shenchun@pset.suntec.net> 1394624229 +0800	am: ENGR00113475: Add auto-complete and platform prompt for each platform.
+9dbd2dfcabd60203cbc675ddf63d98424e2e82bd 0fe3ce31c0bcf798e05625f5ab6da370f5549b5c shenchun <shenchun@pset.suntec.net> 1394624229 +0800	am: ENGR00113611: Add FEC support for BBG2.
+0fe3ce31c0bcf798e05625f5ab6da370f5549b5c 3555bf8266a8d977ade7fb69efefd935ea2a58d6 shenchun <shenchun@pset.suntec.net> 1394624229 +0800	am: ENGR00111465: Remove Watchdog disable codes in MX51 uboot.
+3555bf8266a8d977ade7fb69efefd935ea2a58d6 773d504b650a5830338951d7a6ec39a6eabca9a5 shenchun <shenchun@pset.suntec.net> 1394624229 +0800	am: ENGR00114233 Add support for programming ubifs image on nand flash
+773d504b650a5830338951d7a6ec39a6eabca9a5 87542f7cc46d438277d2795f7437a090121fd40d shenchun <shenchun@pset.suntec.net> 1394624229 +0800	am: ENGR00114236 Disable NAND driver interleave mode support
+87542f7cc46d438277d2795f7437a090121fd40d 02ef4947f40bfee3da0c5007192c200848d600b6 shenchun <shenchun@pset.suntec.net> 1394624229 +0800	am: ENGR00114201: Add MMC configs to mx35 3stack config file.
+02ef4947f40bfee3da0c5007192c200848d600b6 908b769089d8edcdc6d51d9726531cf91916aec7 shenchun <shenchun@pset.suntec.net> 1394624229 +0800	am: ENGR00114178 Support MMC/SD boot and enable dhcp in uboot on MX25
+908b769089d8edcdc6d51d9726531cf91916aec7 3ec1e726fca0b1c823e054f8ce401750f0ce8f40 shenchun <shenchun@pset.suntec.net> 1394624229 +0800	am: ENGR00114393: Support Atmel AT45DB321D SPI NOR flash.
+3ec1e726fca0b1c823e054f8ce401750f0ce8f40 c96fb973b903a5ef244a8892f3ca0656acaf5a7c shenchun <shenchun@pset.suntec.net> 1394624229 +0800	am: ENGR00114367: Add BABBAGE machine id, BBG2.5 rev id for rootfs init.
+c96fb973b903a5ef244a8892f3ca0656acaf5a7c 58489a0a59612ecac1f8171e677e42351d09edba shenchun <shenchun@pset.suntec.net> 1394624229 +0800	am: ENGR00114746: Disable flash header for mx35 nand boot
+58489a0a59612ecac1f8171e677e42351d09edba c4ce99f0233454c089b1a2e0156e30ef9ae1a285 shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00113941 MX233: Make UBOOT v2009.01 work on EVK board
+c4ce99f0233454c089b1a2e0156e30ef9ae1a285 120f31d9fa4b730bc1f46ab9276466ac51e2d520 shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00115333: Enable cp command for MMC
+120f31d9fa4b730bc1f46ab9276466ac51e2d520 d4148e78523c2ba2d8df80ed445d4b0e4a70e08f shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00115046: Add new MMC config option for mx35.
+d4148e78523c2ba2d8df80ed445d4b0e4a70e08f da242f63d4b35bfeefc1e9122e7a9a3d54922fd2 shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00115592: Replace whitespaces with tabs in Makefile
+da242f63d4b35bfeefc1e9122e7a9a3d54922fd2 c45b4a16f0ea06b99f06be888d682a2976742671 shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00116140 MX51 3stack low level does not set M4IF correctly
+c45b4a16f0ea06b99f06be888d682a2976742671 f3d4103c60c9fcf1b83581f51c421a70a46c80cf shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00116083: Recovery mode support for Android on mx51.
+f3d4103c60c9fcf1b83581f51c421a70a46c80cf 3ffa3a551a10dab23d474039db1e744330b3a8ae shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00116203: Change nand Makefile to use CONFIG_MXC_NAND.
+3ffa3a551a10dab23d474039db1e744330b3a8ae 1c80126a25c5b6a8cb04eaee6b71516e9d0bed49 shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00116243: I2C support for mx51 3ds board.
+1c80126a25c5b6a8cb04eaee6b71516e9d0bed49 aa573b29f73b6e66a5f80dab8f45be13ab1411da shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00116472-1 U-BOOT upgrade to V2009.08
+aa573b29f73b6e66a5f80dab8f45be13ab1411da 2718688213a4ebaa84ed8f2c512bbeab9c815d9c shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: u-boot v2009.08 sd/mmc support.
+2718688213a4ebaa84ed8f2c512bbeab9c815d9c 9a91aefc7f93fe84b15402e8fb0641b65d0ca90c shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00116504-1: Sync clock and l2cc code with redboot.
+9a91aefc7f93fe84b15402e8fb0641b65d0ca90c a40b0c78bffb29b07b8ea73d0a6f67486b2354e6 shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00116504-2: Add mx51 bbg to3 support.
+a40b0c78bffb29b07b8ea73d0a6f67486b2354e6 28204a67a59308bda2e638a5b2751074e7224776 shenchun <shenchun@pset.suntec.net> 1394624230 +0800	am: ENGR00116924 Uboot: Boot up hang at detecting NAND when cold boot
+28204a67a59308bda2e638a5b2751074e7224776 d514780511b44a0527507994ee4a151dedbec755 shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00117616: PATA support in u-boot.
+d514780511b44a0527507994ee4a151dedbec755 d4a712f2f45d21d6b989556a5f1fc55f72a6342f shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00116772 Workaround for ARM errata ID #468414
+d4a712f2f45d21d6b989556a5f1fc55f72a6342f 90fbb4530e6437c595130fcd489f2dc87c8e7ab8 shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118294: Misc changes for v2009.08 upgrade.
+90fbb4530e6437c595130fcd489f2dc87c8e7ab8 e65ba1ab67b77c725fc4a9bd8ada3bcaa82b480d shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118362: Correct recovery NAND cmd
+e65ba1ab67b77c725fc4a9bd8ada3bcaa82b480d 55ab9368c7609468fe2d96282f868e9efe892b41 shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118428 MX233 Uboot: reslove the build error for branch imx_v2009.08
+55ab9368c7609468fe2d96282f868e9efe892b41 6ee595e4628f180516d1d0a308c551e6c74e7e9e shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118576 MX25: Support Smc911x ethernet
+6ee595e4628f180516d1d0a308c551e6c74e7e9e b6bd1b23133511576cf922bf7100e54162ceeb30 shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118647 Fix smc911x receive packet length not set correctly
+b6bd1b23133511576cf922bf7100e54162ceeb30 d500d3cb756a346a3b8b1ab96a94af5a5d2a89e7 shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118682 Update the MX25 MAX Priority
+d500d3cb756a346a3b8b1ab96a94af5a5d2a89e7 0abcdebab2018081614919183a8cd2b825b58563 shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118816 Fix reboot/reset failure with image on nand
+0abcdebab2018081614919183a8cd2b825b58563 5889b2d5f2ee908cef08c6d89b6f7e5c9177ecdd shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118751: Some mmc card can't read and write from right offset.
+5889b2d5f2ee908cef08c6d89b6f7e5c9177ecdd bca51d3a82d935189c4254660623413d33e2e591 shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118801: Unknown information when booting from SPI-NOR.
+bca51d3a82d935189c4254660623413d33e2e591 0d1d91686c8779db418fdce0dfea7ca4f4e88269 shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118579 Enable MMU
+0d1d91686c8779db418fdce0dfea7ca4f4e88269 c1cfee0f4eca55f01b57d0e52ff2027f757fac2b shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118978: Timer adjustment for all platforms
+c1cfee0f4eca55f01b57d0e52ff2027f757fac2b c8825836ff7389594912064cf9e51e36f7689ff3 shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00118789 Uboot:Update NAND scan scheme to support new nand type
+c8825836ff7389594912064cf9e51e36f7689ff3 4b5aaa15d0483d326c70ccb5a35671150c70361c shenchun <shenchun@pset.suntec.net> 1394624231 +0800	am: ENGR00119133: MX35 can't boot due to wrong frequency setting
+4b5aaa15d0483d326c70ccb5a35671150c70361c 2cb29281701463c0ced71726dece086370a928dd shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119171: ubifs support for android recovery mode.
+2cb29281701463c0ced71726dece086370a928dd a12dfc4cec5314ee9b6757311377f26cf7d0bb67 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119224: mmu support for mx51 3stack and mx51 bbg
+a12dfc4cec5314ee9b6757311377f26cf7d0bb67 a102602864b8cf6bfb56284cb2e1daa0b47e0829 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00118998: Can not get ip address when kernel boot up
+a102602864b8cf6bfb56284cb2e1daa0b47e0829 ce59c41c721eda03b06a5b14c35481174f5f0b68 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119246 Add CONFIG_MXC_NAND config flag in MX25 platform
+ce59c41c721eda03b06a5b14c35481174f5f0b68 8b62e74da6127831c6ac09950b24a44070cf5e30 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119254: Add mmu header for mx51 build error
+8b62e74da6127831c6ac09950b24a44070cf5e30 755aed54c402fdea0af3a889ef5df9114872b36c shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119486 MX25: Improve Lan9217 ethernet transfer speed
+755aed54c402fdea0af3a889ef5df9114872b36c b2ee254ece324c3f5710bbcac59805c1d16a8025 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119505 MX51 BBG: Change DDR2 settings
+b2ee254ece324c3f5710bbcac59805c1d16a8025 469284f568e1ccb22eb2e47dce445bcb93db99f6 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119526 MX25: Fix mmc read/write failure on mmc uboot
+469284f568e1ccb22eb2e47dce445bcb93db99f6 7cbbbf5a8eef3f61ee937aa6dbdd73e5485e2237 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119625 i.MX35: UBoot doesn't accept commands if program uboot to NOR
+7cbbbf5a8eef3f61ee937aa6dbdd73e5485e2237 2bf01c299f45316cd5f3bb95c2a60ffa1532c49b shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119660 MX35 UBOOT: Can't boot up on 2k page size nand
+2bf01c299f45316cd5f3bb95c2a60ffa1532c49b c7b78be1258416b1e8a0fbab36445999b38f3dac shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119591 Fix SPI-NOR reset issue
+c7b78be1258416b1e8a0fbab36445999b38f3dac 3dd0963b2b9a3760cc2979e5b7f22181473390c0 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00118739 Correct the board version of MX51 EVK
+3dd0963b2b9a3760cc2979e5b7f22181473390c0 0a25d615c4eb0fef2b2cab8a5cc345463928464c shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119701 MX51: merge some fixes in 200908 version
+0a25d615c4eb0fef2b2cab8a5cc345463928464c f2df1a1fc8f36542b195d28776c14eaafcab42e9 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119715: Add multi network support for mx35
+f2df1a1fc8f36542b195d28776c14eaafcab42e9 c64ff7e2eb1b7ffe47994917e71d49414a173f08 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119716: MX28 basic support.
+c64ff7e2eb1b7ffe47994917e71d49414a173f08 89ecf8cf2202b47fc52ac0768a8c8e452a608f87 shenchun <shenchun@pset.suntec.net> 1394624232 +0800	am: ENGR00119738: eMMC card access failed.
+89ecf8cf2202b47fc52ac0768a8c8e452a608f87 26bda56c5a83a3a6e6f97a22191255a00a0545a6 shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00119706: Add esdhcv1 support.
+26bda56c5a83a3a6e6f97a22191255a00a0545a6 7c248808947f418edbac88d2e1d56c0e0c3e3c2e shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00119834: Change PDR0 clock settings for mx35 TO2
+7c248808947f418edbac88d2e1d56c0e0c3e3c2e 73cf07b09a069089996de2d8bc80717b59209951 shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00119890: Set right mac addr to FEC register in init
+73cf07b09a069089996de2d8bc80717b59209951 3545895e6b68e92ecb1824d5c0c7135fb6085f29 shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00119894: Read right value in mxc_i2c
+3545895e6b68e92ecb1824d5c0c7135fb6085f29 d49166a88a54e5fbfa1b460d59e6b2df6b4d240d shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00120191 MX51: Update the M4IF setting
+d49166a88a54e5fbfa1b460d59e6b2df6b4d240d 9d3b4d75547d484c391246ca40bf600d8c32ccf1 shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00120203: Add fec_addr check for mx51
+9d3b4d75547d484c391246ca40bf600d8c32ccf1 605999150e7b5490add0c4ab66f67da47e7032cc shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00120207: Change recovery mode combo keys
+605999150e7b5490add0c4ab66f67da47e7032cc 4d88fba35362cec83083956d71cc2a9cbbcbd659 shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00120208: Change recovery mode boot_cmd strategy
+4d88fba35362cec83083956d71cc2a9cbbcbd659 714eb0b196ca490fefdcdd79b34ea42f2d5f5ad3 shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00120202 MX51: enable L2 cache
+714eb0b196ca490fefdcdd79b34ea42f2d5f5ad3 e898fc8fc4f47d9d503a4c2798bac8dce6be2d7d shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00120206 iMX28 Enable Ethernet and MMC boot support
+e898fc8fc4f47d9d503a4c2798bac8dce6be2d7d 24504266c8e449827c9a5a7c6c1babac94f98961 shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00120476: Add fuse support for mx51
+24504266c8e449827c9a5a7c6c1babac94f98961 68c9deeae14eeec73dd661a0797a52ba80d4975c shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00120830: Add eMMC and eSD fast boot support
+68c9deeae14eeec73dd661a0797a52ba80d4975c e5f820ea921ed878e7cc96c3224b8d33ab5c7055 shenchun <shenchun@pset.suntec.net> 1394624233 +0800	am: ENGR00121029 Add MX51-BBG Uboot Firmware support
+e5f820ea921ed878e7cc96c3224b8d33ab5c7055 6f6c2ebe06e38ba7cb4181aa64fe68a9f91247bc shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00120520: Enable MMU for mx51 and mx35
+6f6c2ebe06e38ba7cb4181aa64fe68a9f91247bc 34b7f383d61120d97a850b2aae6c013d239c7fbc shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00121079: Unable to get IP address in uboot
+34b7f383d61120d97a850b2aae6c013d239c7fbc bd75ae9188172dab204051e0a9a9288385214f68 shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00121314: Fix mx23 and mx28 u-boot build error
+bd75ae9188172dab204051e0a9a9288385214f68 e1e694cd6d5c5f18762c9e58e320c607a8f8de0c shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00121504 Revert ENGR00120191 to restore M4IF values
+e1e694cd6d5c5f18762c9e58e320c607a8f8de0c a7d631b387fc8a228e9b2e8bd3077fc35a4085c6 shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00121379: MX28 U-BOOT enhancements
+a7d631b387fc8a228e9b2e8bd3077fc35a4085c6 1627af3452a5d2ab97b957ef976945963b192098 shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR000121601: FEC not work in mx28 u-boot
+1627af3452a5d2ab97b957ef976945963b192098 67b481660fef6d58fc72e7de735d0fb2c78263bb shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00121202 Add uboot support for MX53
+67b481660fef6d58fc72e7de735d0fb2c78263bb 6c4f7f69dc6856b4c7011e6f98c9a2599376554d shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00121731: Add mmu, l1cache, l2cache support for mx53
+6c4f7f69dc6856b4c7011e6f98c9a2599376554d efdfe77ee5eb7ab22bdd86f706d5cf2a5b67a2e7 shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00121774 DDR 300Mhz support for MX53 uboot
+efdfe77ee5eb7ab22bdd86f706d5cf2a5b67a2e7 2292b7c9c8bda5bfd23d8a51b42ca5e050c57d0f shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00121779 Support a single kernel image on MX5x parts
+2292b7c9c8bda5bfd23d8a51b42ca5e050c57d0f 4c9cd32a252908f8eca258301b339d9467fab03d shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00121832: Some code reconstructure for u-boot
+4c9cd32a252908f8eca258301b339d9467fab03d 4424adc51a457cb20ea3a4709f139e2f9d6d33d6 shenchun <shenchun@pset.suntec.net> 1394624234 +0800	am: ENGR00121976 UBOOT: some fix for SD/MMC card
+4424adc51a457cb20ea3a4709f139e2f9d6d33d6 308aea1ce4bae1f4fbcdebd87adf1b6244d33348 shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00122046 Update DDR init script for MX53 EVK
+308aea1ce4bae1f4fbcdebd87adf1b6244d33348 798bcc40526d59a732e3d9c70168e5535751bcdc shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00122050: mmc can't read data whose size exceeds 32M
+798bcc40526d59a732e3d9c70168e5535751bcdc 30b36014fd77191ee0196e2e883a7b835ee3200d shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00119033: System can not find MMC/SD card in SD slot 1
+30b36014fd77191ee0196e2e883a7b835ee3200d b75855afaf1b05934126316a5caa0e9eb7774628 shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00122085 MX35 Add Uboot Firmware support
+b75855afaf1b05934126316a5caa0e9eb7774628 bd8e6245605321b9e0b0812dbd87e9df10af4ab9 shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00122203 UBOOT: Add MX53 ARM2 board support
+bd8e6245605321b9e0b0812dbd87e9df10af4ab9 db07ae5690ee10bb8e35544831fbcbfc024c171d shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00122217 Missed iomem_valid_addr in updater configration
+db07ae5690ee10bb8e35544831fbcbfc024c171d e3cf571e90918751da1933a804f5e4dc29d5081f shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00122030 Mfg Firmware support fot imx25
+e3cf571e90918751da1933a804f5e4dc29d5081f 422d2f5df516a2c7643d7b0e1e8eb09c3fb3daaf shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00122395: fix license declaration issue in fsl_esdhc.h
+422d2f5df516a2c7643d7b0e1e8eb09c3fb3daaf 1f706e97acf688cd68cb1e6f68275caa2615c21a shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00122342: missing mx23 evk machine ID setting
+1f706e97acf688cd68cb1e6f68275caa2615c21a 3e9d34e628a4ed2b42600385f9e32f5fc8307168 shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00122643: Integrate linear PMIC
+3e9d34e628a4ed2b42600385f9e32f5fc8307168 f611417670dff21d8c66bcc260354a6f09a0068f shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00122980: Change default env dev to mmc for bbg
+f611417670dff21d8c66bcc260354a6f09a0068f 8276ee3ebdbd3ca7ed8a3ef158051e3f8538e4ce shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00123265 UBOOT:Preserve NAND bad block indication
+8276ee3ebdbd3ca7ed8a3ef158051e3f8538e4ce 9386f52318b6e683806932552d035a8fd7e71cf0 shenchun <shenchun@pset.suntec.net> 1394624235 +0800	am: ENGR00123278: Support clock operation functions
+9386f52318b6e683806932552d035a8fd7e71cf0 c6ccf5086c0d1060754f4ce44aa1448405740a54 shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00123418: Add peripheral clock setup support
+c6ccf5086c0d1060754f4ce44aa1448405740a54 e97140f34cbc48b9d9dc460380d265ec2d3fda5b shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00123488 MX53 Board Identification
+e97140f34cbc48b9d9dc460380d265ec2d3fda5b c9bc34578d2ca13661127772a30f106de8a3223f shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00123630 Set ddr clk clock according to the board ID
+c9bc34578d2ca13661127772a30f106de8a3223f 7929716ddd300e400b0481566993b7ff09fbe281 shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00123641 MX53: Add DDR3 CPU board support
+7929716ddd300e400b0481566993b7ff09fbe281 f81fa8ed2f13db263a821bf621306a90637c256d shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00123870 MX53: Set AXI_B clock to 200Mhz
+f81fa8ed2f13db263a821bf621306a90637c256d 879c56ea488b7fd5c0f8ea79241834d13317b2b1 shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00123551: Add mx25 splash screen support
+879c56ea488b7fd5c0f8ea79241834d13317b2b1 d9f3e01d11df36fec81e5a2e458941f7b65b39ba shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00124100: Add support for saving env data to active mmc device
+d9f3e01d11df36fec81e5a2e458941f7b65b39ba 4965eb0dedcb4bc835c3f1675f55879ffb92d6d4 shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00124195 Uboot:Pass EVK RevB board ID to kernel
+4965eb0dedcb4bc835c3f1675f55879ffb92d6d4 ed08bcc69133bd77aca8a4119a79f315e6f3c36e shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00123484 mx28:support saving environment into sd1
+ed08bcc69133bd77aca8a4119a79f315e6f3c36e 2d7995ab03f5223744346f029da38f2c5513aca2 shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00124391 mx35: update mfg config file
+2d7995ab03f5223744346f029da38f2c5513aca2 2b69ed662b452bc5ab7c79e80b61d6fcbcba0074 shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00122651: Add dwc_ahsata support
+2b69ed662b452bc5ab7c79e80b61d6fcbcba0074 9689c3bbad65184e9b4660f819e0fd95e83ddfdb shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00123782 Fix boot partition problem for emmc
+9689c3bbad65184e9b4660f819e0fd95e83ddfdb 21997a88782713221f127a0638a56b36dd01a3e0 shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00124652 UBOOT: MX53 env fails to load when booting from 2nd slot
+21997a88782713221f127a0638a56b36dd01a3e0 ee84036470d8dcf109957f0cfebd2545260a7f82 shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00124710 MX53 Uboot: Add MFG tool support
+ee84036470d8dcf109957f0cfebd2545260a7f82 a34238b0b2598a70886865097b5b92073532f204 shenchun <shenchun@pset.suntec.net> 1394624236 +0800	am: ENGR00124819 Uboot reading/writing sd card fails
+a34238b0b2598a70886865097b5b92073532f204 54c8e7ec2d00fb60f1c5e69d962e2a5ba80aa8c0 shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00124908 CSPI: make spi_get_cfg platform specific
+54c8e7ec2d00fb60f1c5e69d962e2a5ba80aa8c0 9fc2a38d29213d4a05723c47698f63a1a3e3f19a shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00124359 Add uboot support for MX50
+9fc2a38d29213d4a05723c47698f63a1a3e3f19a b2e4af05466a94ed198e3a6023e943c0b4dc618b shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00124953 Uboot:Fix the build break for MX51 BBG board
+b2e4af05466a94ed198e3a6023e943c0b4dc618b ecf4659166252d62069df5891e727df9506503aa shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00124954 MX50: init sys by ROM plug-in feature
+ecf4659166252d62069df5891e727df9506503aa f1a7e00cfbe6aa375a8b525f1e34f3dc4af1b89d shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00124951 Uboot cannot initialize MMC cards
+f1a7e00cfbe6aa375a8b525f1e34f3dc4af1b89d d24656cfb3bd9334f19ef6a114df636866540f93 shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00124912 MX53: Fix board ID check issue
+d24656cfb3bd9334f19ef6a114df636866540f93 6e7bcfe5cde3f69d24fbf15b92dc872c1e4f1ceb shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00124627: Dynamic SD slot support for env data.
+6e7bcfe5cde3f69d24fbf15b92dc872c1e4f1ceb 8f14625631f0bd415af880282b58ac3e6111082b shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00124984 MX53:Add spi_get_cfg function support
+8f14625631f0bd415af880282b58ac3e6111082b 2424043ca4facb8fff285ca111d39daa3c9f447d shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00125042 mx35: Fix error in a comment for header file
+2424043ca4facb8fff285ca111d39daa3c9f447d 1d0cb39864b0e0ad1d85e002b7c3abff882bc827 shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00125045 MX53 Uboot: Adjust VDDGP voltage
+1d0cb39864b0e0ad1d85e002b7c3abff882bc827 ce9babfdb0e09be274ce3483393cd6cff0b14852 shenchun <shenchun@pset.suntec.net> 1394624237 +0800	am: ENGR00123924: Reconstructure fuse files and add fuse to mx53.
+ce9babfdb0e09be274ce3483393cd6cff0b14852 afbe4577e2985bb5f9858753f3ad464b8d1a37c6 shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00125174: MX50: change memory configurations
+afbe4577e2985bb5f9858753f3ad464b8d1a37c6 dfd54f0cdac5307e9f6bb3dc1b0c61b31cf07b5f shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00125036 Uboot Add eMMC 4.4 support
+dfd54f0cdac5307e9f6bb3dc1b0c61b31cf07b5f cd5aa468cffc4779586aead178453e3702e558ed shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00125220 MX28: SD(slot0)boot dhcp failed
+cd5aa468cffc4779586aead178453e3702e558ed 9a9bb1c9c4222e6186f32d8b82314e989c46beae shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00125613 mfg-tool: Add mx50 mfg firmware support
+9a9bb1c9c4222e6186f32d8b82314e989c46beae c44cb92b2dc1b1e9f13011c101f85406a44e0196 shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00125735 iMX28 read mac address from fuse
+c44cb92b2dc1b1e9f13011c101f85406a44e0196 5b6d0a8d9ff22468da09e9ae31ebcb623199e5e6 shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00125757 mx28: change the boot mode offset to TO1.2 version
+5b6d0a8d9ff22468da09e9ae31ebcb623199e5e6 d00229e8067529f60570def6af4c42dc3f29a814 shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00125324: Add splash screen code and support for epdc
+d00229e8067529f60570def6af4c42dc3f29a814 f8ef861c29b6db309d525f0fa342e837a3c1086c shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00125237: Fix incorrect copyright info.
+f8ef861c29b6db309d525f0fa342e837a3c1086c e516dc667c59820b0eee34e1a40a2bf3e7750ff4 shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00126079: Add clk command support for mx51
+e516dc667c59820b0eee34e1a40a2bf3e7750ff4 ac12bfe2d87a2019b137a1b5f79b7a366580ea89 shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00126474 UBOOT: update DDR script on MX50 ARM2
+ac12bfe2d87a2019b137a1b5f79b7a366580ea89 ff7b764179e53d533a6bea8b486db3491a231141 shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00126566 MX50:Aligned LPDDR2 initialization to the latest script
+ff7b764179e53d533a6bea8b486db3491a231141 6943b7c587cd88cc927431f19d38b1bf86a77c14 shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00126764 MX50: Set the memroy size to 512M on LPDDR2 board
+6943b7c587cd88cc927431f19d38b1bf86a77c14 fc127e89f9acf482ad613f2ea97f868d5a825f57 shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00127368 UBOOT: Make the android recovery code common for platforms
+fc127e89f9acf482ad613f2ea97f868d5a825f57 e22d51575e9eab99e98507aa5c368a0c17e88f54 shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00131619 UBOOT: Gcc 4.4.x complains weak inline
+e22d51575e9eab99e98507aa5c368a0c17e88f54 6cc8c8248a1e5d1ec861e7aa7eeb38dfcfd49b1b shenchun <shenchun@pset.suntec.net> 1394624238 +0800	am: ENGR00131712 UBOOT:add DDR2 support for IMX50
+6cc8c8248a1e5d1ec861e7aa7eeb38dfcfd49b1b 834895a110c5cd58264d4cb4a4d7563f4c655ad4 shenchun <shenchun@pset.suntec.net> 1394624239 +0800	am: ENGR00127167: Add gpmi nfc and apbh dma support for mx50.
+834895a110c5cd58264d4cb4a4d7563f4c655ad4 2027cbca456be22cd3e1ce240b59dd8d0173902a shenchun <shenchun@pset.suntec.net> 1394624239 +0800	am: ENGR00131578: Add android recovery mode support for mx53
+2027cbca456be22cd3e1ce240b59dd8d0173902a 4227881d6356396e733f2a61ebacd760fb8fd95c shenchun <shenchun@pset.suntec.net> 1394624239 +0800	am: ENGR00131662: Fix that iram boot don't work
+4227881d6356396e733f2a61ebacd760fb8fd95c cd75705a4f680de02a953c4a3e83d0eccc203cae shenchun <shenchun@pset.suntec.net> 1394624239 +0800	am: ENGR00131705-1 rename mx53_evk folder as mx53_rd
+cd75705a4f680de02a953c4a3e83d0eccc203cae 0d999a6dfd82392d3991506f6b31933297125990 shenchun <shenchun@pset.suntec.net> 1394624239 +0800	am: ENGR00131705-2 Add MX53 ARD support
+0d999a6dfd82392d3991506f6b31933297125990 32e6bab7add17031fdc1eee8aa4919fac1a3bb0b shenchun <shenchun@pset.suntec.net> 1394624239 +0800	am: ENGR00131705-3 Import new mach-type header file
+32e6bab7add17031fdc1eee8aa4919fac1a3bb0b 51b5ba7e650ed4504e783a92b7e260d66be30d1c shenchun <shenchun@pset.suntec.net> 1394624239 +0800	am: ENGR00131705-4 MX53: fix typo error for recovery
+51b5ba7e650ed4504e783a92b7e260d66be30d1c 48af57043b0cf157be328cfd5f3384c3149d7b31 shenchun <shenchun@pset.suntec.net> 1394624239 +0800	am: ENGR00131792: Fix mx50 lpddr2 build errors
+48af57043b0cf157be328cfd5f3384c3149d7b31 b9e691384d170028ae9fbf00adff72e2902bceaa shenchun <shenchun@pset.suntec.net> 1394624239 +0800	am: ENGR00131779: Use serial_mxc as uart driver for all platforms
+b9e691384d170028ae9fbf00adff72e2902bceaa 0dc199cc681724583e0e94de57b051375d3d4289 shenchun <shenchun@pset.suntec.net> 1394624239 +0800	am: ENGR00131691 MX50 RDP Uboot
+0dc199cc681724583e0e94de57b051375d3d4289 81cf92c0ccb04e6a51055568731845abf604914c shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00131840 MX53 ARD:use serial_mxc as uart driver
+81cf92c0ccb04e6a51055568731845abf604914c 60ac1f2cc9f246a8af5b18d0056912caf6b270a7 shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00131924: using ext4 as default recovery filesystem
+60ac1f2cc9f246a8af5b18d0056912caf6b270a7 711b7dfea2aca9ebb7f4f927b26cae7020ddbe35 shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00131936 MX5X corrent mx53_evk mx51_BBG android default env setting
+711b7dfea2aca9ebb7f4f927b26cae7020ddbe35 c17c675d9c4981ea1e304e02dd34b0b0ca3fc27a shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132014: nand read and write page may fail in some pages
+c17c675d9c4981ea1e304e02dd34b0b0ca3fc27a 33a1cfbdb542bfcd5d235f104ce755b72623a4e1 shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132526 MX50 RDP Update to latest LPDDR2 script
+33a1cfbdb542bfcd5d235f104ce755b72623a4e1 9d8c336b0cb7923ffb7876b6de9d05280b8d08f7 shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132618 MX53 MFG:use serial_mxc as uart driver
+9d8c336b0cb7923ffb7876b6de9d05280b8d08f7 c8ab3421e2b853f8920d8e8330cd57683f2bebed shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132656 MX53 ARD: Add MFG tool support
+c8ab3421e2b853f8920d8e8330cd57683f2bebed f0b1a0b58e25e940f0b280fe9605f22fd5f9a998 shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132617 MX53: add NAND support
+f0b1a0b58e25e940f0b280fe9605f22fd5f9a998 48c65dcbe9fb17aab5345d72ad4af644b46bb893 shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132709 MX53: add "clk nfc" command support
+48c65dcbe9fb17aab5345d72ad4af644b46bb893 a59f50a621194af0094ae38e761b7cc963571fa3 shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132727 NAND: remove REG_NFC_ONE_CYCLE calling
+a59f50a621194af0094ae38e761b7cc963571fa3 d14e6e8ae4b3376c27fcb8905cae9aadb8fa6157 shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132758 correct NFC_CLK definition
+d14e6e8ae4b3376c27fcb8905cae9aadb8fa6157 72b5b954821ade5778858af04dd38241b4bda4c7 shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132759 MX53: use 32K CLK as GPT source
+72b5b954821ade5778858af04dd38241b4bda4c7 0967b428ccb68de69ab40f6fca18a9af058b018b shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132886 mx50-rdp: add mx50 rdp board mfg-tool firmware defconfig
+0967b428ccb68de69ab40f6fca18a9af058b018b 0b6015d2b20cf9ff5a010f37c0b67d305253d13a shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132957 mfg-tool: should add stop usb operation for mx50 rdp
+0b6015d2b20cf9ff5a010f37c0b67d305253d13a 5a431d74286933d20dd45ce0d09df0a7b12b0aba shenchun <shenchun@pset.suntec.net> 1394624240 +0800	am: ENGR00132965 add MT29F16G08ABACA NAND description
+5a431d74286933d20dd45ce0d09df0a7b12b0aba 2d9857f3e5712f7ad781cced8da84b27658447b1 shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00133049 Support nand flash for MX28
+2d9857f3e5712f7ad781cced8da84b27658447b1 d8f911b6b0247af84d3f4c4635fcf85e7613ec7a shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00133530 plug-in support mfgtools and sb_loader
+d8f911b6b0247af84d3f4c4635fcf85e7613ec7a 9ac7b50fbe325b10e0c85a24474a79c2c75b4beb shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00132909 MX53 Uboot: Support for TO2
+9ac7b50fbe325b10e0c85a24474a79c2c75b4beb ffd64f37abd2338f0628dbbb8620650030e8e81d shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: Get common/cmd_fastboot.c and include/fastboot.h from omap uboot git. The code realized common Android USB fastboot protocol.
+ffd64f37abd2338f0628dbbb8620650030e8e81d 68f02303ded30db19c22d06150e56cdf8b9894ef shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00133743 Change code style of fastboot code to pass review-commits.
+68f02303ded30db19c22d06150e56cdf8b9894ef 12ee24506f1f8a29eed72e0c4868fcbaaf9bfe93 shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00133756:UBOOT:NAND:Remove the 2G limitation from NAND driver
+12ee24506f1f8a29eed72e0c4868fcbaaf9bfe93 af4dbe44e61d3732716ee5bbf9e7611e13df38dd shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00133689 MX51: set MC13892 charge output voltage as 4.2V
+af4dbe44e61d3732716ee5bbf9e7611e13df38dd b70bbf5af6b51f7abe01ccc1512adfdb5c6ada8e shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00133551-1 Add freescale usb udc support for i.mx51 platform.
+b70bbf5af6b51f7abe01ccc1512adfdb5c6ada8e 85bc698967283adf355788cdf1a2e3dc7cdff577 shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00133551-2 Add fastboot driver support for android.
+85bc698967283adf355788cdf1a2e3dc7cdff577 51e145c8a8063882f0ba3acd4ffadfc79167ef8c shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00133124: Add nand support for mx50 rdp
+51e145c8a8063882f0ba3acd4ffadfc79167ef8c c82f3d1a99d8a8fe3ec713de570b1f0c751d2c4b shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00134098-1 MX51: Update fastboot usb init seq
+c82f3d1a99d8a8fe3ec713de570b1f0c751d2c4b eda5eb9aa06002029589fa5a230cf307d0ab7ddd shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00134098-2 MX53: Add fastboot support for android.
+eda5eb9aa06002029589fa5a230cf307d0ab7ddd e799fa4cf2ef23972f3555578e6464c54efe9f59 shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00133579 Uboot ESDHCv3 Remove workaround for DLL
+e799fa4cf2ef23972f3555578e6464c54efe9f59 3d20a6a22076313b2d4b7717522e25160d382090 shenchun <shenchun@pset.suntec.net> 1394624241 +0800	am: ENGR00133437 MX50 Uboot support for TO 1.1.1 precode
+3d20a6a22076313b2d4b7717522e25160d382090 c7a7ace220f670f78cfdf19674fba3467e21a886 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: ENGR12345678 Change ddr write delay in the PHY
+c7a7ace220f670f78cfdf19674fba3467e21a886 653292e07218cced7810abd39abf87698c5c5dc9 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: ENGR00025557: MX50 Add ZQ calibration support for TO1.1.1.
+653292e07218cced7810abd39abf87698c5c5dc9 2bed62632e2f4e05e4332077166d75edb66cf0d0 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: ENGR00133744: Merge mx50_arm2 to mx50_rdp
+2bed62632e2f4e05e4332077166d75edb66cf0d0 1a62b48c9d936b6207d6bb1a644ec4af96efe732 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: NAND: Update to support 64 bit device size
+1a62b48c9d936b6207d6bb1a644ec4af96efe732 ddbf670eb46c4e9c31b1fbf3324f813aa4d54ee5 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: ENGR00134220-1 NAND: fix up the chip select handling
+ddbf670eb46c4e9c31b1fbf3324f813aa4d54ee5 ebbd44a8feba006df71274ab10e8b6582c8651e0 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: ENGR00134220-2 Need use CONFIG_SYS_NAND_MAX_CHIPS
+ebbd44a8feba006df71274ab10e8b6582c8651e0 bca438facaf54dec08707aa47c60d9d26f0e4f20 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: ENGR00134220-3 Fix the nand bad command issue
+bca438facaf54dec08707aa47c60d9d26f0e4f20 f7844f3c0df25c2cf7492e939f9fd4945d6d7430 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: ENGR00136031 mfgtool: sync config file for mx50 rdp
+f7844f3c0df25c2cf7492e939f9fd4945d6d7430 73ac3b0a35b3dbba5108eb096eda9b4628364394 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: ENGR00136042 Add ZQ calib config and update script for DDR2
+73ac3b0a35b3dbba5108eb096eda9b4628364394 95fab1b2e0a61ff108befa1877f36483c26ca8ab shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: ENGR00136081 DDR script update for MX53 TO2 ARD
+95fab1b2e0a61ff108befa1877f36483c26ca8ab 65fb40e50e990ec8af088bdd198afbc0d70db2b1 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: ENGR00136170 MX50 Add ZQ calibration revision for TO1.1
+65fb40e50e990ec8af088bdd198afbc0d70db2b1 00bdc952f5b70957449742b4ac3dfad2c278fdf4 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: Add linux framebuffer header include/linux/fb.h
+00bdc952f5b70957449742b4ac3dfad2c278fdf4 b7cab91044660f54ee74a7ebcd9048a79bb605e4 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: MX51: Add IPU driver for video support
+b7cab91044660f54ee74a7ebcd9048a79bb605e4 a5b692acbd8d62e60226e32e069e7a6d764d3629 shenchun <shenchun@pset.suntec.net> 1394624242 +0800	am: MX51: Add video support
+a5b692acbd8d62e60226e32e069e7a6d764d3629 65e13a721df9eddc0468da0085b66afb10705d1c shenchun <shenchun@pset.suntec.net> 1394624243 +0800	am: ENGR00136038: Remove config CONFIG_EMMC_DDR_MODE
+65e13a721df9eddc0468da0085b66afb10705d1c 64e4a2fd5aa70cab8dbb63bca22389ce1e4d7de5 shenchun <shenchun@pset.suntec.net> 1394624243 +0800	am: ENGR00133727: uart outputs messy code when kernel starts on mx51
+64e4a2fd5aa70cab8dbb63bca22389ce1e4d7de5 ce7d260a81c5a50479d3ca3571de03935e4deaee shenchun <shenchun@pset.suntec.net> 1394624243 +0800	am: ENGR00134068 MX51 BBG:Support CLAA WVGA splashimage
+ce7d260a81c5a50479d3ca3571de03935e4deaee fc1155a1bd76b97bd58ece5a44ed9f1840d0be75 shenchun <shenchun@pset.suntec.net> 1394624243 +0800	am: ENGR00137214 MX50: Turn on ZQ calib config by default and fix hang problem
+fc1155a1bd76b97bd58ece5a44ed9f1840d0be75 174bdcfb96a1fe7a3dd9955d8028bb8cf58e4fc6 shenchun <shenchun@pset.suntec.net> 1394624243 +0800	am: ENGR00137273 uboot: update the android default env for 2.6.35 kernel
+174bdcfb96a1fe7a3dd9955d8028bb8cf58e4fc6 4aff569305da306f769df3eb2c52b78c74a173b5 shenchun <shenchun@pset.suntec.net> 1394624243 +0800	am: ENGR00137211 U-Boot MX5x: Incorrect GPL license header on files
+4aff569305da306f769df3eb2c52b78c74a173b5 73f130ff84e93bcdd34276e194222a1e3cc346db shenchun <shenchun@pset.suntec.net> 1394624243 +0800	am: ENGR00137390 UBOOT:NAND: BBT not found on MX53 board
+73f130ff84e93bcdd34276e194222a1e3cc346db fa336a62eb9364041ab89d4a9d363ac67e30ca66 shenchun <shenchun@pset.suntec.net> 1394624243 +0800	am: ENGR00137372 MX53: Switch back to use DCD and update DDR scripts
+fa336a62eb9364041ab89d4a9d363ac67e30ca66 c8c31ba48cac69f2cee114138faeac8dfd6626ed shenchun <shenchun@pset.suntec.net> 1394624243 +0800	am: ENGR00137408: Add FAT32 support
+c8c31ba48cac69f2cee114138faeac8dfd6626ed f5b306a675d20cbfcc8ec2e5302ab3deb0418570 shenchun <shenchun@pset.suntec.net> 1394624243 +0800	am: ENGR00136863-1: Change mmc framework architecture.
+f5b306a675d20cbfcc8ec2e5302ab3deb0418570 f17bc8e4d4549e4434c23373751a060c605bf5c1 shenchun <shenchun@pset.suntec.net> 1394624244 +0800	am: ENGR00136863-2: Fix mx53 CMD12 issue.
+f17bc8e4d4549e4434c23373751a060c605bf5c1 cc51c9825973a28ba1521e61bdc6f5ccedc0c130 shenchun <shenchun@pset.suntec.net> 1394624244 +0800	am: ENGR00137410 MX53 split board files into different folders
+cc51c9825973a28ba1521e61bdc6f5ccedc0c130 2668de07cd6dc4ecd9c9a5023a76eaaccb2b8e25 shenchun <shenchun@pset.suntec.net> 1394624244 +0800	am: ENGR00136075 MX53: Add SMD board support
+2668de07cd6dc4ecd9c9a5023a76eaaccb2b8e25 977c8df86b0ac815eb60d07750ecb0c076b509a1 shenchun <shenchun@pset.suntec.net> 1394624244 +0800	am: ENGR00137497-1 Import new mach-type header file
+977c8df86b0ac815eb60d07750ecb0c076b509a1 1d97cdfb6e5808c7759c94eef6ce39ffabc04e8e shenchun <shenchun@pset.suntec.net> 1394624244 +0800	am: ENGR00137497-2 MX53: Add LOCO board support
+1d97cdfb6e5808c7759c94eef6ce39ffabc04e8e 705d4f217f8e12dff25873994c8d6f547d0be699 shenchun <shenchun@pset.suntec.net> 1394624244 +0800	am: ENGR00137596 MX53 Uboot SMC911X driver needs to get mac addr from IIM
+705d4f217f8e12dff25873994c8d6f547d0be699 1725f71b68a16cfa522425a6a332c0120232ba28 shenchun <shenchun@pset.suntec.net> 1394624244 +0800	am: ENGR00137642 MX53 Uboot Align DDR3 script for Loco and SMD boards
+1725f71b68a16cfa522425a6a332c0120232ba28 d652f17038fa581f6b21a844998e963e1620b032 shenchun <shenchun@pset.suntec.net> 1394624244 +0800	am: ENGR00137604: Change PLL4 to 455MHz for mx53
+d652f17038fa581f6b21a844998e963e1620b032 d7574f9ff860fce92a66794147a48718137d5324 shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137603 Add mx53_smd_android config for android
+d7574f9ff860fce92a66794147a48718137d5324 0fbb99627efd68adc11807d47f12af31337fff06 shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137713 MX53 Uboot SMSC Fix order in which mac addr bytes are read from IIM
+0fbb99627efd68adc11807d47f12af31337fff06 8642fa2ad81f9345bdafd014b7476289c92c0a29 shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137766 BBG splashimage:Allocate cmap for panel_info
+8642fa2ad81f9345bdafd014b7476289c92c0a29 118613a2b4090426c9c86b3f6625e495b9a394e8 shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137767 IPUv3 video:Support splashimage with MMU disabled
+118613a2b4090426c9c86b3f6625e495b9a394e8 bf331794dd4d78c98b07f1404ab1a09d76ac1cca shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137841 splashimage:Correct horizontal display position
+bf331794dd4d78c98b07f1404ab1a09d76ac1cca c821085260b54168c755c22de0c091db07a0cebc shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00136869: SATA device can't init and a typo in sata help
+c821085260b54168c755c22de0c091db07a0cebc 13afcec5c09401ecc7a7786710447a828e16759e shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137358: Add saving environment to sata device support
+13afcec5c09401ecc7a7786710447a828e16759e 0630d0f6b8908df6b9020c6b08708ae2dc218a81 shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137791 MX53: Update for MFG tool
+0630d0f6b8908df6b9020c6b08708ae2dc218a81 82b5055afce1258035d86a6b3f45cc868ed2e424 shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137894-1 Add imx pwm driver support
+82b5055afce1258035d86a6b3f45cc868ed2e424 37fff63e6eb714357da71b83b18da853ee3dd14c shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137894-2 MX53: Add ipu base addr and ipu clock
+37fff63e6eb714357da71b83b18da853ee3dd14c c59f1e6d89f5a271cf1b9966cfebb30f61b8977c shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137894-3 IPU driver enhancement
+c59f1e6d89f5a271cf1b9966cfebb30f61b8977c a3aaabd871d46b5739fd21077e2d8055e6f8bc0e shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137894-4 IPUv3 FB: IPUv3 FB driver enhancement
+a3aaabd871d46b5739fd21077e2d8055e6f8bc0e ba06b463b563b4a890c5cc6c0c5f9ee6eccc3530 shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137894-5 MX53 ARD:Support splashimage
+ba06b463b563b4a890c5cc6c0c5f9ee6eccc3530 922fe67f7bd5bb3d4e7f009c066262f2d6eb2bbb shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137894-6 MX53 SMD:Support splashimage
+922fe67f7bd5bb3d4e7f009c066262f2d6eb2bbb 09a0ad594f810b83f725cba4b740e0a661c9c883 shenchun <shenchun@pset.suntec.net> 1394624245 +0800	am: ENGR00137552 MX53: increase VDDGP as 1.2V for 1GHZ
+09a0ad594f810b83f725cba4b740e0a661c9c883 b18d83962881a48d170acf1db7f8209133ef8570 shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138040-1 MX53 SMD Android:Support splashimage
+b18d83962881a48d170acf1db7f8209133ef8570 8f511d5ff588aed3a5d197512c42c455b1e0ee24 shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138040-2 MX51 BBG Android:Support splashimage
+8f511d5ff588aed3a5d197512c42c455b1e0ee24 50c2a10a7d1bbadd0c6e2907e36fd245c8d7e46b shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138040-3 Protect splashimage related stuffs by config
+50c2a10a7d1bbadd0c6e2907e36fd245c8d7e46b f2df2403ca7b2d2b07c39a8c91c7868349445621 shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138148 MX53 TO2.0 EVK: change the default core as 1GHZ
+f2df2403ca7b2d2b07c39a8c91c7868349445621 9fe1165e878847a18b575043023dde1aca4244c8 shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138191 disable the SPLASH SCREEN for android
+9fe1165e878847a18b575043023dde1aca4244c8 40056c3b78b58560ab4115560423d16df760abdc shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138240 Disable splashimage support for PDK
+40056c3b78b58560ab4115560423d16df760abdc af9a5676f68c84b8f279501baeb2ba3bf4a85904 shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138359 Change uramdisk from 6M byte offset of android fastboot
+af9a5676f68c84b8f279501baeb2ba3bf4a85904 e742528692404d92d3882b5923929bdcd82f1ccb shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138390 android recovery, enlarge uImage size
+e742528692404d92d3882b5923929bdcd82f1ccb 2b1ce8b0793318e82791946b0d86d40e9c608ac5 shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138468-1 MX5 video:Disable DP/DC/DI/IDMAC before go to kernel
+2b1ce8b0793318e82791946b0d86d40e9c608ac5 ab9d45b4cecb2793ccb0c8c31e04c583d6e3333b shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138468-2 Enable splashimage support for several platforms
+ab9d45b4cecb2793ccb0c8c31e04c583d6e3333b 684080147321769da1e57491f8823f9b48aa628d shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138422-1 Fix usb connection failure if do sata init
+684080147321769da1e57491f8823f9b48aa628d 2d5f2a3ed402be1c8adb2ab019030fc6530c251f shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138422-2 Add SATA storage support for android fastboot
+2d5f2a3ed402be1c8adb2ab019030fc6530c251f 7c652d9f0d49e1b954fdfd39fa6fa2e82d7ce609 shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138422-3 Android fastboot: Pass block offset to cmd_fastboot
+7c652d9f0d49e1b954fdfd39fa6fa2e82d7ce609 fc9cfe29cb37d675e3cfa5747e1ca106696dbfa3 shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138534 Disable splashimage support defaultly for PDK
+fc9cfe29cb37d675e3cfa5747e1ca106696dbfa3 e989f4977537338330cded1ae5e867c434c2bcd6 shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00118558 MX51/MX53: change the boot command of android boards.
+e989f4977537338330cded1ae5e867c434c2bcd6 eba50c06ab65af4b5e096fbc9e963882b22e1897 shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138549 Android fastboot: Support eMMC4.4 on imx53_smd
+eba50c06ab65af4b5e096fbc9e963882b22e1897 d1c59d9f423a174a1f4b96fca404b096f4d59d1a shenchun <shenchun@pset.suntec.net> 1394624246 +0800	am: ENGR00138635 MX50 Update mDDR script to use more optimized settings
+d1c59d9f423a174a1f4b96fca404b096f4d59d1a 02de2b2989addd9da98f2acbd155a6de23f16801 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00138689 MX50 Update LPDDR2 script to use more optimized settings
+02de2b2989addd9da98f2acbd155a6de23f16801 210925902b69ac79bb343abb88be7deb6d85a291 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00139120: Correct CONFIG_CMD_MMC to CONFIG_CMD_IIM for iim
+210925902b69ac79bb343abb88be7deb6d85a291 f7c60740407ebb6b1575d8d63fb989d7400fb489 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00139924 mx53 smd &loco: set bootup vdd GP to 1.2v
+f7c60740407ebb6b1575d8d63fb989d7400fb489 1dc26d8a41529bef1f910168e52f525c1163efa2 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00139747: Read fuse to distinguish between mx53 revA and revB
+1dc26d8a41529bef1f910168e52f525c1163efa2 0dc94f7f2df9658f18b7423da94c67e4692a20b0 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00138533: Fix sata write operation random failure issue
+0dc94f7f2df9658f18b7423da94c67e4692a20b0 a7e754022d6f6c94fd20ac781b80844e5d0bbe20 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00140089 MX53_SMD: update command line.
+a7e754022d6f6c94fd20ac781b80844e5d0bbe20 3002993cd4e885c4db387aa83422e4ed18738321 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00140692 Update for DDR3-based MX53 SABRE Auto boards
+3002993cd4e885c4db387aa83422e4ed18738321 967c2be2204ef113d250991bbb3daa91bedf740c shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00140750 mx53smd: set the default DDR size to 512MB for android configure
+967c2be2204ef113d250991bbb3daa91bedf740c 6c1755ee4ff1650e04407fd0b58ab9adab2d664f shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00140767: Improve mx5x DDR clock function
+6c1755ee4ff1650e04407fd0b58ab9adab2d664f 2a01bdd092a611a9f965bc6371e90c3fc1842119 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00140486 Add SPI NOR Flash M25P32 driver
+2a01bdd092a611a9f965bc6371e90c3fc1842119 b7c4d052a8e04a01b80b292c390e8469abd7dd34 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00140825: Add mx53 to2.1 chip id recognition
+b7c4d052a8e04a01b80b292c390e8469abd7dd34 127495c86c8578cdb31d82c3b3a4fe079dfe3f15 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00140824 Android: Enable fastboot support for mx50 rdp
+127495c86c8578cdb31d82c3b3a4fe079dfe3f15 684827e9a289f523518dc3ee06fe13bb064b7044 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00140873: MMC may wrongly regconize 2GB eMMC as high capacity
+684827e9a289f523518dc3ee06fe13bb064b7044 9f99f786fbfcdb5d7c9fb870a60d488b66ca2682 shenchun <shenchun@pset.suntec.net> 1394624247 +0800	am: ENGR00140872 Add MX50 RD3 Support
+9f99f786fbfcdb5d7c9fb870a60d488b66ca2682 ae37b96852b47625dc2274bef733e6bbcd2e9e28 shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00140982 MX53 Increase VDDGP to 1.25V for 1 GHz
+ae37b96852b47625dc2274bef733e6bbcd2e9e28 6d813a1ad768064e348635ff39184fd6b1c0d9d0 shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00140537 mx53: update vddgp according to new data sheet
+6d813a1ad768064e348635ff39184fd6b1c0d9d0 647f38704f41c36d40c859e622966080973c8c50 shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00141000 MX50_RDP: add android recovery support.
+647f38704f41c36d40c859e622966080973c8c50 2d0616ff1eab14a78219ce8d6b39a9bf19d29c2f shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00141058 MX50_RDP: Android Fix typo in recoevry command line
+2d0616ff1eab14a78219ce8d6b39a9bf19d29c2f 4acb7636d981b91cc86fc09a47b6fe85878de2f8 shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00141129: Add m25p32 spi_nor support for mx53_smd
+4acb7636d981b91cc86fc09a47b6fe85878de2f8 bd612bd998709c26db2f7d6e39223e6a9a9c3f55 shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00141157: Add m25p32 spi nor config to mx53_smd_android
+bd612bd998709c26db2f7d6e39223e6a9a9c3f55 da369468e97b7667c2d0f486e84d31048d1e6072 shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00141363: change mx53 uart clk parent to pll2
+da369468e97b7667c2d0f486e84d31048d1e6072 1a09f5ef0b2ebe283b6d0cda080dddc9c8e45b9c shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00141410 MX50 RD3: Set GPIO4_16 to Enable DCDC_3V15
+1a09f5ef0b2ebe283b6d0cda080dddc9c8e45b9c c7558e837de5f6cc288da3c2229d2dcdf919f1de shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00141556: Fix copyright issue
+c7558e837de5f6cc288da3c2229d2dcdf919f1de 331c23443849f38802dca200c3c54119a6df94d3 shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00141335-1: Use bypass way to set ddr dll in mx53
+331c23443849f38802dca200c3c54119a6df94d3 922536b576c7bb48eed78390e78ffaa62a83c264 shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00141335-2: get more accurate ipg_per clock frequency
+922536b576c7bb48eed78390e78ffaa62a83c264 6865bb974c7d4c8d92ab1cef804f589778c43eeb shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00141335-3: Add CONFIG_EMMC_DDR_PORT_DETECT to mx53 and mx50config files
+6865bb974c7d4c8d92ab1cef804f589778c43eeb 253f24a2636604ee66a9d2f3df28d191cf16065c shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00142246 MX50 Update DDR2 script to use more optimized settings
+253f24a2636604ee66a9d2f3df28d191cf16065c 794d42d7c7404b688da683e1ed24e8b4bc4c3d0b shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00142247 MX50: Add PD+3 routine for all DDR types
+794d42d7c7404b688da683e1ed24e8b4bc4c3d0b 00f7f23f4e83b921f2bd26e3623aa6d0d2ff12c3 shenchun <shenchun@pset.suntec.net> 1394624248 +0800	am: ENGR00142259 set UART2_RXD (GP6_11) to high
+00f7f23f4e83b921f2bd26e3623aa6d0d2ff12c3 f263998bc5a999968b27c13a3e76426124f62f58 shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00141885: mx50 and mx53 reboot fail when booting from spi nor
+f263998bc5a999968b27c13a3e76426124f62f58 2e485ca5a93ee5e03cfd377152e6359347c84450 shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00142322: mx53-smd: spi nor: can't erase 0x200000 size
+2e485ca5a93ee5e03cfd377152e6359347c84450 f03aa4891781a8aa42f1318e6f5108cfdb539e92 shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00142497 Android: MX53_SMD: check eMMC and SD recovery file.
+f03aa4891781a8aa42f1318e6f5108cfdb539e92 1d5135b27a18ae7980cd389546cf90c4bbf7cb50 shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00142740 mx50 rdp: mfg support GPMI nand by command line
+1d5135b27a18ae7980cd389546cf90c4bbf7cb50 b9f6830f560c1007d92c025bcaf164b8f4cd4187 shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00143178 mx53 ARD DDR3 board: add MFG tool support
+b9f6830f560c1007d92c025bcaf164b8f4cd4187 689ab4289bbacea83bf37dfbdd909466e08f71a3 shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00142995 MX50: Enable uSDHC instead of eSDHC for SDR mode
+689ab4289bbacea83bf37dfbdd909466e08f71a3 49e0ac21c81f3acefed927e470c54c803125121e shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00143428 mx53 ard RevB: use internal clock for sata
+49e0ac21c81f3acefed927e470c54c803125121e 983bc426d7757e36a9c57f620a41ab74da3a7c15 shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00143442 uboot: support android spi boot and mfg on mx50 rd3 board
+983bc426d7757e36a9c57f620a41ab74da3a7c15 e2cb699ec586783162551bc2d41c3faca8af06ab shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00143457: Don't let ROM copy .bss section
+e2cb699ec586783162551bc2d41c3faca8af06ab 78a18478363ad41339c73fd40678384ff54d5c72 shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00143461 mx51 evk: increase VDDGP as 1.1v for 800MHZ
+78a18478363ad41339c73fd40678384ff54d5c72 0f45b47ae46e5385b838c2dc0703696776dccd65 shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00143469 mx53 smd: pull down GPIO_9 to reset the board
+0f45b47ae46e5385b838c2dc0703696776dccd65 02bb5918b5318104300eb3ffe899b9917721b4fc shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00143613 uboot: update the android ramdisk load address
+02bb5918b5318104300eb3ffe899b9917721b4fc a3a5c480c071cf7b7cb84f8b9ac777df8ce2fdbd shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00143570 mx53: change the default environment setting
+a3a5c480c071cf7b7cb84f8b9ac777df8ce2fdbd df08faf58cf0de8066d5cae1f8ffd1099bc972cf shenchun <shenchun@pset.suntec.net> 1394624249 +0800	am: ENGR00143302 Add mc34708 pmic support on loco/Ripley board
+df08faf58cf0de8066d5cae1f8ffd1099bc972cf 80fd79f143555ac8bed865726f4c175fc8e69094 shenchun <shenchun@pset.suntec.net> 1394624250 +0800	am: ENGR00143298: Reinit uart after using clk command
+80fd79f143555ac8bed865726f4c175fc8e69094 030fca8090aa1deb6f6883feabee5a617f8ca387 shenchun <shenchun@pset.suntec.net> 1394624250 +0800	am: ENGR00143704: U_BOOT: Nand oobsize is wrong in some nand chips
+030fca8090aa1deb6f6883feabee5a617f8ca387 a3d03561894dd4b0f7ea74c77bf9be5852ee61b0 shenchun <shenchun@pset.suntec.net> 1394624250 +0800	am: ENGR00143837 mx50 rd3: support android boot from RD3 NAND device
+a3d03561894dd4b0f7ea74c77bf9be5852ee61b0 61deb78d312e1434de1a125e2c2bee0553999df5 shenchun <shenchun@pset.suntec.net> 1394624250 +0800	am: ENGR00144060 MX53_SMD: recovery android, update recovery command for emmc.
+61deb78d312e1434de1a125e2c2bee0553999df5 cde512d9dc04f232935e0b4477004e6ee2c7a7de shenchun <shenchun@pset.suntec.net> 1394624250 +0800	am: ENGR00144389 mx53 QS Ripley: change VCC from 1.35V to 1.3V QS Ripley board
+cde512d9dc04f232935e0b4477004e6ee2c7a7de de9e11659fbde3d63d7b63c8baceadb9316b7e96 shenchun <shenchun@pset.suntec.net> 1394624250 +0800	am: ENGR00144224: MX53: Add MMU mapping for all peripherals
+de9e11659fbde3d63d7b63c8baceadb9316b7e96 6a779e757a7530dc6a4596e61f8e50a1eae9ece3 shenchun <shenchun@pset.suntec.net> 1394624250 +0800	am: ENGR00151187 MX53 SMD: Kernal stopped Usb driver after reseting in stop mode
+6a779e757a7530dc6a4596e61f8e50a1eae9ece3 511b984769506ace9ca5d6faca83902ea24ad091 shenchun <shenchun@pset.suntec.net> 1394624250 +0800	am: ENGR00151892 MX50: Workaround to prevent PLL1 from losing lock
+511b984769506ace9ca5d6faca83902ea24ad091 0bec0f83e6e65f975b9f944b90b43e2020b278cf shenchun <shenchun@pset.suntec.net> 1394624250 +0800	am: ENGR00151966: MX51 - Apply SW workaround for the PLL1 unlock HW issue.
+0bec0f83e6e65f975b9f944b90b43e2020b278cf 724c04e0eb41cc6a3ce0aae02c9ac5084646dbd8 shenchun <shenchun@pset.suntec.net> 1394624250 +0800	am: ENGR00144424 MX6: enable uboot for ARM2(SABREAUTO) CPU board
+724c04e0eb41cc6a3ce0aae02c9ac5084646dbd8 30eb8dfb11eac0daa5b7336b3dd7e54ff852e8a6 shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00139198: iMX61 uBoot add ENET support
+30eb8dfb11eac0daa5b7336b3dd7e54ff852e8a6 39a6a0819e75d30180d2df340d8f7aa8a6ceb885 shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00152241 MX6: enable 1G speed mode for PHY and ENET
+39a6a0819e75d30180d2df340d8f7aa8a6ceb885 3cb10520905a638ceecc806273bd6bab2e4873f3 shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00152439: MX51: PLL workaround should be implemented only for PLL1
+3cb10520905a638ceecc806273bd6bab2e4873f3 376453f049ff2d61f787c801c1ac560e2022e34c shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00139206 MX6 USDHC eMMC 4.4 support
+376453f049ff2d61f787c801c1ac560e2022e34c 04c762b5985f6c890fbe05f6c126160f330c803c shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00152755 MX6 Switch DRAM init script from plugin to DCD for emmc fastboot
+04c762b5985f6c890fbe05f6c126160f330c803c 6c0265396c668abf9614d4ecddaa797c7a919bed shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00152907 MX5X: update GPU default cmdline.
+6c0265396c668abf9614d4ecddaa797c7a919bed 0d05aaa404e6d8958a61e2d95a9d3888455097b2 shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00153394 mx50 rd3: make SDHC1 as default boot device for android
+0d05aaa404e6d8958a61e2d95a9d3888455097b2 abfd31c79738295a09dfc5adf279486b2ac66f74 shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00152843 mx51/3: align the android default env with document
+abfd31c79738295a09dfc5adf279486b2ac66f74 633a575b48fc86f319b895c9deb3a5ed69e112c1 shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00151695 mx53 ddr3: update ESDREF and MR0
+633a575b48fc86f319b895c9deb3a5ed69e112c1 13b69dd2c891daad0a279fb2f07ff2e6bb6d4c6c shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00151310 mx53 smd: force warm reset as cold reset
+13b69dd2c891daad0a279fb2f07ff2e6bb6d4c6c 2eedf94275382552001b69e9b537bf1340f9c48b shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00143438 [MX50 RD3]DCDC_3V15 GPIO change
+2eedf94275382552001b69e9b537bf1340f9c48b cfdd134e78b44b32c08b6404617308e91b4f54cf shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00153597 [MX6]Enbale MMDC low power
+cfdd134e78b44b32c08b6404617308e91b4f54cf 87f667a72e5fd4c1dbacc3ef01fc72c92f7e5715 shenchun <shenchun@pset.suntec.net> 1394624251 +0800	am: ENGR00153605 fastboot: uboot cannot be burned to boot partition
+87f667a72e5fd4c1dbacc3ef01fc72c92f7e5715 73e286077d0c9ef7052b02909f8e57629a547b63 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00153526 mx53 pcba: add pcba board revB support in uboot
+73e286077d0c9ef7052b02909f8e57629a547b63 9820de910f607bd9ff75867b80e29236bda680ad shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00153759 mx51: fix fastboot build failed without boot partition macro
+9820de910f607bd9ff75867b80e29236bda680ad 526baaed93b47463f9ad18cad158388f8f8fd135 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00153761 imx6q ipuv3: improve display quality
+526baaed93b47463f9ad18cad158388f8f8fd135 254b17a78688feb9962b41dba7a3f9878796b3d7 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00154400 mx53 pcba: bringup update for RevB board
+254b17a78688feb9962b41dba7a3f9878796b3d7 9e6ba22b54af9425610524c58cfbcda20f636dbc shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00154468 mx53 pcba: Add DC-IN power supply support for revB board
+9e6ba22b54af9425610524c58cfbcda20f636dbc 7136a1d5accd44fe7ecd936b6e50f92229064410 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00154762 mx53_pcba: update Ripley/mc34708 USB/AUX charger settings
+7136a1d5accd44fe7ecd936b6e50f92229064410 afb4285f0999fbaef1bf44cfe3aa05b31c8680b0 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00154396: U_BOOT: Env config adjustment.
+afb4285f0999fbaef1bf44cfe3aa05b31c8680b0 96dbf9f4d42e63f42fc73dd218eb8dcd17f929e4 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00154924 [MX6]Disable some clocks in uboot
+96dbf9f4d42e63f42fc73dd218eb8dcd17f929e4 dfbc4f4b0ad05bbc3e20ef90cd79ef431b3f7187 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00154998 mx53 pcba: correct the default bootargs
+dfbc4f4b0ad05bbc3e20ef90cd79ef431b3f7187 ec2a9ce4d2f602724325433fc4ef50411940e7e6 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00155018 mx53_pcba: update Ripley AUX input to 950mA and charge current
+ec2a9ce4d2f602724325433fc4ef50411940e7e6 cbb88dc52e4442b819e3ce1adb807e6eff2c0f5e shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00155138 mx53_smd/mx53_loco: Add i2c retry to fix DA9053 i2c NAK issue
+cbb88dc52e4442b819e3ce1adb807e6eff2c0f5e d24c109f96a26410c6b20dccba5d30d7ac21a701 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00155156 [MX6]Clean up debug info in uboot
+d24c109f96a26410c6b20dccba5d30d7ac21a701 f0fb761ce41a36d6507ebfa59d2c3adcf556321b shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00151255 mx53 QS: Enable VUSB_2V5
+f0fb761ce41a36d6507ebfa59d2c3adcf556321b 0e3f0f20f2b0454f87846b1c70893a4523998ac4 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00155133: Add sata support for imx6
+0e3f0f20f2b0454f87846b1c70893a4523998ac4 24416acc3c33d5f43416cfe589a57da85ef76646 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00155240 mx53_smd: Fix a bug that hangs on printf() in board_init
+24416acc3c33d5f43416cfe589a57da85ef76646 484b3cbbf92f272aeae9ae642de7db9df5ac7db5 shenchun <shenchun@pset.suntec.net> 1394624252 +0800	am: ENGR00154672: Change to use rom plugins for mx53 boards
+484b3cbbf92f272aeae9ae642de7db9df5ac7db5 406e84364f41f7a9df445b7c790c7c1c40fd2b66 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00155472 mx53_loco: support both of RevA and RevB in uboot
+406e84364f41f7a9df445b7c790c7c1c40fd2b66 8c1294842b5cc3b2f3687a48ae4efed60062d388 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00155284 mx53_smd: move I2C access to board_init_late for system hang issue
+8c1294842b5cc3b2f3687a48ae4efed60062d388 100172d861eb954f3dfaa2449f7293a740c97c92 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00154666-1: Align u-boot mmc command with community
+100172d861eb954f3dfaa2449f7293a740c97c92 b2b80b5ace60ca25f659a4b1d65134cb9ef40020 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00154666-2: Align u-boot mmc command with community
+b2b80b5ace60ca25f659a4b1d65134cb9ef40020 b4d7e5e7870495930d98a26d9d31f664475479e8 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00154666-3: Align u-boot mmc command with community
+b4d7e5e7870495930d98a26d9d31f664475479e8 785819e4d0713b66f1da213d8b71892727729930 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00154666-4: Align u-boot mmc command with community
+785819e4d0713b66f1da213d8b71892727729930 022abcc35447c13743b672cc7213bb6fa78919d8 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00155739: mx53 evk mmu wrong mapped two csd slots
+022abcc35447c13743b672cc7213bb6fa78919d8 889b1aba50b9abba5c28cb4e98b7a8add2dd1e67 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00155279: Change ESDCTL_0x82228080 to ESDCTL_0x82226080 for mx35
+889b1aba50b9abba5c28cb4e98b7a8add2dd1e67 dacda0d1193f84c2b97cce35e8549acc507672b5 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00155283: Set dpgdck0_2_en to 0 when freq is lower than 300MHz
+dacda0d1193f84c2b97cce35e8549acc507672b5 aba2f82169e24f15a921e9e23f182790e91352a3 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00139254: Enable MX6Q Uboot Splash Screen
+aba2f82169e24f15a921e9e23f182790e91352a3 bddf76eb16e96e32e44bfaa95a0f3ed3357966bb shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00156034: Fix mx53 evk build error
+bddf76eb16e96e32e44bfaa95a0f3ed3357966bb 8527ad48ca86178d283283a5e290a2e6fc23eb20 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00156098 mx53_smd/mx53_loco: DA9053 I2C SDA stuck low issue on bootup
+8527ad48ca86178d283283a5e290a2e6fc23eb20 238e7656c74fe795f038284d33ae572f66350117 shenchun <shenchun@pset.suntec.net> 1394624253 +0800	am: ENGR00156304 eMMC: Need to update partition config after changing boot partition
+238e7656c74fe795f038284d33ae572f66350117 972c0c38991d408c3e724a8a431a69044d295d78 shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00156389: turn off child clocks before reconfigure perclk_root
+972c0c38991d408c3e724a8a431a69044d295d78 34553d403fed6b53e88034c92832216ff1a52901 shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00156405 ESDHC: Add workaround for auto-clock gate errata ENGcm03648
+34553d403fed6b53e88034c92832216ff1a52901 8a366ac788a7be66d6834a33aea6e316e8b0aae2 shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00156670-1 ESDHC/USDHC: Remove delay before each cmd and some bug fixes
+8a366ac788a7be66d6834a33aea6e316e8b0aae2 dc3bdc15962171375376f706df8e73786e9f381d shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00156670-2 MMC: Fixed some bugs in common code
+dc3bdc15962171375376f706df8e73786e9f381d 2acca76cefff0da373bc8e4e9a71e3010ec79074 shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00155569 mc34708: change global reset time as 4s of LOCO and PCBA
+2acca76cefff0da373bc8e4e9a71e3010ec79074 8e02800f5cd6110bc01796bcee2fccda54db36ae shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00157419: Correct default environment's mmc device in mx6q
+8e02800f5cd6110bc01796bcee2fccda54db36ae 5b27898bd44c34e83ff1120af3b529dab1ee391f shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00157468: Fix default environment's "mmc dev" type error
+5b27898bd44c34e83ff1120af3b529dab1ee391f a344320ced13174ff686870aaa4bb01f0ed3aa4c shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00157538 remove VDIG_PLL setting in plug-in code
+a344320ced13174ff686870aaa4bb01f0ed3aa4c 154c2955beb324af5f66882eff9f63f9fe663194 shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00158184 mx53 smd: use highest value for unknown board revision value
+154c2955beb324af5f66882eff9f63f9fe663194 99dea4119a6fc8a4545c0ab920cb73a1d74afd90 shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00159696 [MX6]Enable lpddr2 board
+99dea4119a6fc8a4545c0ab920cb73a1d74afd90 d8156761996d11856171ed8f65c5af28bb618469 shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00159740 Android: Fastboot: enlarge max image size to 148MB
+d8156761996d11856171ed8f65c5af28bb618469 cc6d983b979484ba3269cf4c4c42d3bd63605179 shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00159845 [MX6]lpddr2 board, put MMDC into power saving mode
+cc6d983b979484ba3269cf4c4c42d3bd63605179 1ac1bdc366d4591a75f74b6eceed88baadeb2dfc shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00139279-1 MX6Q: add env_embedded module for CONFIG_ENV_IS_NOWHERE
+1ac1bdc366d4591a75f74b6eceed88baadeb2dfc b4cab58e4553dbbe171f69d92e43b18fe3826613 shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00139279-2 MX6Q: add mfgtool support
+b4cab58e4553dbbe171f69d92e43b18fe3826613 18de2076475577a68ff573aeaa30c5f1c1be3953 shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00139279-3 MX6Q: invalidate the D-CACHE
+18de2076475577a68ff573aeaa30c5f1c1be3953 30bbf164f4120fa0a9a4f8c8e0f85d170aaadc6e shenchun <shenchun@pset.suntec.net> 1394624254 +0800	am: ENGR00156930: Update MX35 DDR2 scripts
+30bbf164f4120fa0a9a4f8c8e0f85d170aaadc6e 3cf3e5e036972d44c95a3e0720a9a090ffe915c3 shenchun <shenchun@pset.suntec.net> 1394624255 +0800	am: ENGR00156934: Update mx35 AIPS max dbg m3if esdctl settings
+3cf3e5e036972d44c95a3e0720a9a090ffe915c3 743156768d5d50439330b3733db4f4c78fd5483b shenchun <shenchun@pset.suntec.net> 1394624255 +0800	am: ENGR00160507 Update the IOMUX implementation for MX6
+743156768d5d50439330b3733db4f4c78fd5483b 794ef6a26078f1bbc8cc8764d779d188756fadc1 shenchun <shenchun@pset.suntec.net> 1394624255 +0800	am: ENGR00160725 fastboot: fix the serial number display error
+794ef6a26078f1bbc8cc8764d779d188756fadc1 90b19945a6215854427018e6c2aad2df462e8b7d shenchun <shenchun@pset.suntec.net> 1394624255 +0800	am: ENGR00160399 Added support for the MX6Q Sabre-lite board
+90b19945a6215854427018e6c2aad2df462e8b7d b6cb081417a781dc74caac8ac38d43518253fe88 shenchun <shenchun@pset.suntec.net> 1394624255 +0800	am: ENGR00160514: clean up compiler warning for mx6q
+b6cb081417a781dc74caac8ac38d43518253fe88 9f6a7a08d00ac5d30e8e48d9bfd571bca1e08ad9 shenchun <shenchun@pset.suntec.net> 1394624255 +0800	am: ENGR00139221 USDHC Add SDXC UHS-I support
+9f6a7a08d00ac5d30e8e48d9bfd571bca1e08ad9 4c7d5cc731c2ba2f4ec51fefd28eaf3813041f10 shenchun <shenchun@pset.suntec.net> 1394624255 +0800	am: ENGR00161004 MX6Q Uboot Rename sabreauto to arm2 board
+4c7d5cc731c2ba2f4ec51fefd28eaf3813041f10 e75d8f2e9dfb2f39a5e867f4165ac0abe68ec02a shenchun <shenchun@pset.suntec.net> 1394624255 +0800	am: ENGR00161125 Update MX6Q Sabrelite config to boot from MMC by default
+e75d8f2e9dfb2f39a5e867f4165ac0abe68ec02a b32e8d33c20e7951ffe7719bf3c1004b4a09321b shenchun <shenchun@pset.suntec.net> 1394624255 +0800	am: ENGR00161133: Add spi-nor support for mx6q
+b32e8d33c20e7951ffe7719bf3c1004b4a09321b cbbba0e14c6e97a0d02a4efb7fb30e5f42152216 shenchun <shenchun@pset.suntec.net> 1394624255 +0800	am: ENGR00161126 Enable Hush parser in MX6Q Sabrelite config
+cbbba0e14c6e97a0d02a4efb7fb30e5f42152216 d7c9c3e487457abb39bf2dcb3be5a29cc39c1cb1 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00139215 iMX61 Uboot support blow fuse
+d7c9c3e487457abb39bf2dcb3be5a29cc39c1cb1 fbd659d7b2ed621adc45ee06bd5077e0edf40426 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161277 Add fuse access capability for MX6 Sabre-lite
+fbd659d7b2ed621adc45ee06bd5077e0edf40426 1bc9afde7f632e2072506821b0d3be4048890e71 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161294 Update MX6 code to read MAC address from fuses
+1bc9afde7f632e2072506821b0d3be4048890e71 5c79ad61693cc55bee372e558b4fac97da4b795e shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161254 MX6Q: Add NAND support in Uboot
+5c79ad61693cc55bee372e558b4fac97da4b795e ce6671a148bc2f6669e6f75af272626e521e715c shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161296 Update the MX6 Sabre-lite environment option in the config file
+ce6671a148bc2f6669e6f75af272626e521e715c 4fd53645af1ce4d95d1f5bd7029b8afca0ca1ff8 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161373 Move the MAC address read from fuse code to MX6 SoC file
+4fd53645af1ce4d95d1f5bd7029b8afca0ca1ff8 82039f2127f351772a42ae6da9b1a5c67d7f0aed shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161317 - MX6Q: Integrate plugin and dcd DRAM init script in uboot.
+82039f2127f351772a42ae6da9b1a5c67d7f0aed 3bfee80b197353d1ed94747b4bc1e668f2b808b1 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00157106 uboot mx6q: adjust IPU axi-id0/1 Qos value
+3bfee80b197353d1ed94747b4bc1e668f2b808b1 af7a29fdbbd18539f5aac6d17214d872883610b8 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161415: mc34708: set 1p5
+af7a29fdbbd18539f5aac6d17214d872883610b8 d362c95393aa005dceac1a326554b06e336b4292 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161354 MX6Q ARM2 U_BOOT: "mmc dev 0" or "mmc dev 1" cmds will hang
+d362c95393aa005dceac1a326554b06e336b4292 50e280e199084b3ae464cfd231a7b59c945252ee shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161691 Manufacturing update for Sabre-lite
+50e280e199084b3ae464cfd231a7b59c945252ee 558ea595cc3d1642876dc0ba9b5c966800e3d5a9 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161846 uboot mx6q_arm2: adjust IPU axi-id0/1 Qos value
+558ea595cc3d1642876dc0ba9b5c966800e3d5a9 a8a20c3c48cbd4a10eb0079f7504101559d74119 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161860 Fix build issue when enable NAND in Uboot
+a8a20c3c48cbd4a10eb0079f7504101559d74119 5a81be0f2c9c91b42de989d1239c372836f00e63 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00161852: remove u-boot build warnings for mx6q
+5a81be0f2c9c91b42de989d1239c372836f00e63 d0a9d049fbe10347b95abe3639c4981f6f34d799 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00155891 : Fix reboot stress test failed issue
+d0a9d049fbe10347b95abe3639c4981f6f34d799 f8baebbb76c93e9421e6390cd5dfc5656a9e0880 shenchun <shenchun@pset.suntec.net> 1394624256 +0800	am: ENGR00162437 uboot mc34708 pcba : add spi support on mc34708
+f8baebbb76c93e9421e6390cd5dfc5656a9e0880 3c5fbccaa74ffac56087d2a4575f1f4c7c491f48 shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00162570: MX6-Increase VDDSOC_CAP voltage to 1.2V
+3c5fbccaa74ffac56087d2a4575f1f4c7c491f48 8e080343ff678e4601cdc0660fd440963570eec4 shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00162491 Android: MX53_SMD: enter recovery mode by key.
+8e080343ff678e4601cdc0660fd440963570eec4 f571b3ffa4996094e7ff4e83c17acc02fa345d9a shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00162709 Add Support for MX6Q Sabre Auto
+f571b3ffa4996094e7ff4e83c17acc02fa345d9a 96a23cb1aa1c7cd64a36357de3217de4f7495662 shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00162874: Add enet clk change support for mx6
+96a23cb1aa1c7cd64a36357de3217de4f7495662 3e3094196654a61dd677e26629c155dd0426f78d shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00162938 MX5: Add download_mode command in uboot to enter MFG download mode.
+3e3094196654a61dd677e26629c155dd0426f78d 288387b62bbb50d32e781db3ce4e8236ba13c0b2 shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00162937 - FEC: Fix FEC cannot load kernel accroding tftp.
+288387b62bbb50d32e781db3ce4e8236ba13c0b2 cba6347d968f9dabe52b7020f141a91ad1cbf251 shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00162717 mx53_smd/mx53_loco DA9053: reset da9053 i2c and add dummy write
+cba6347d968f9dabe52b7020f141a91ad1cbf251 ed05576da85133dad2184db2c8da5762d4ae9566 shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00163040 - FEC : Fix ethernet cannot work after system sleep.
+ed05576da85133dad2184db2c8da5762d4ae9566 c19d04a2d624835abe529aaf07147f18a93793e7 shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00163239-1 mc34708: fix not charging issue in uboot
+c19d04a2d624835abe529aaf07147f18a93793e7 458be7bc6945f86fede5c2faf90723bceb8c5374 shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00163239-2 mc34708: enable extra charging circuit
+458be7bc6945f86fede5c2faf90723bceb8c5374 7a26966c5f3ea60af5df619d3d772d212f44f255 shenchun <shenchun@pset.suntec.net> 1394624257 +0800	am: ENGR00163370 Android: uboot: mx53_smd fix warnning message
+7a26966c5f3ea60af5df619d3d772d212f44f255 46d7112bb277e9d6f7bf220c4dcdfb1ee53a70db shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00163513 MX6Q-UBOOT : Add download_mode cmd
+46d7112bb277e9d6f7bf220c4dcdfb1ee53a70db e82e11337ed0531f41b83f957739779d325a7ca1 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00163704: MX5X: add i2c recovery function in board_lateinit.
+e82e11337ed0531f41b83f957739779d325a7ca1 5ae46e5a80b06ad3c73ef434959b6afc1ce1d9f7 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00169500 mc34708 mx53_loco: 4s power off in QS board
+5ae46e5a80b06ad3c73ef434959b6afc1ce1d9f7 250bae721ba355e4fa38457c476636d240755a35 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00169654 mx53_pcba: enable DDR auto-calibration
+250bae721ba355e4fa38457c476636d240755a35 39e36df40b04b04424b838603ed2583239b93de1 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00169655 pcba : merge i2c recovery patch to pcba
+39e36df40b04b04424b838603ed2583239b93de1 ae3baa1725d6b0efac7c7c4be8058457ba47d752 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00169741 UBOOT : DDR3 initialization based on the MX6Q ARD
+ae3baa1725d6b0efac7c7c4be8058457ba47d752 376adb3c5e1289f980fdec510057d41ff5507b5c shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00169919 MX6Q ARM2 U-Boot : Support Pop CPU Board
+376adb3c5e1289f980fdec510057d41ff5507b5c 48c28b52c9e969c580d0fea5e973d3b4a8a37727 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00170299-1 Android: add support fastboot function
+48c28b52c9e969c580d0fea5e973d3b4a8a37727 3b7186b19fb015b83fa46db5e54b2087533016a2 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00170299-2 Android:MX6Q_SL: add board support for recovery and fastboot.
+3b7186b19fb015b83fa46db5e54b2087533016a2 c2e43ea416b18de15e80333dc2eb2fde9c1f8905 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00170299-3 Android: add android board configure file.
+c2e43ea416b18de15e80333dc2eb2fde9c1f8905 c9e0f6c87e5cc1c75349a3fad013428424b86e3d shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00170372 mx6q sabrelite: make TF card as default boot media
+c9e0f6c87e5cc1c75349a3fad013428424b86e3d 02bae6e9c745dc517281f217d43b8c8ee1a1dc95 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00170405 Android: MX6Q_SL: Fix recovery key detection
+02bae6e9c745dc517281f217d43b8c8ee1a1dc95 72cd61f2c4b544509066aed44f2db7a5bc5385f2 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00170516 Enable the master mode for ENET PHY on MX6 Sabrelite
+72cd61f2c4b544509066aed44f2db7a5bc5385f2 66d50ce7902554d40bcae037d7f678ee27f554d8 shenchun <shenchun@pset.suntec.net> 1394624258 +0800	am: ENGR00170644: Enlarge mmc read size to 4M in default env
+66d50ce7902554d40bcae037d7f678ee27f554d8 6a9aa7b4cc8048e6b14fb638d78caa8edb462701 shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00169544 - FEC : fix "imx5x bootp command cannot work well".
+6a9aa7b4cc8048e6b14fb638d78caa8edb462701 690702770807a2b7d352550d6437823ce2bec2ab shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00163697 - FEC : Adjust MX53 Network stream throughput.
+690702770807a2b7d352550d6437823ce2bec2ab a5704d04948873f234ec3308e431d146d0591884 shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00160621 [MX6]Workaround for reset issue
+a5704d04948873f234ec3308e431d146d0591884 f1322582a4e6db4708489779968a3e8ccdf5603b shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00162642: Fix bug in setting VDDSOC voltage
+f1322582a4e6db4708489779968a3e8ccdf5603b d176fc3b761780229bfdcf92c3633f95fc3506c1 shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00170768 Android: Fix fastboot can't used on MX6Q SL MMC1 device.
+d176fc3b761780229bfdcf92c3633f95fc3506c1 c46334d7227b86af9e5846e6f848c01cd621f455 shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00170837 [MX6]Add temperatuer check into uboot
+c46334d7227b86af9e5846e6f848c01cd621f455 76b5e660433635c0b1268e14612606bab8bc01ad shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00170876 Android: align boot commands with user guide.
+76b5e660433635c0b1268e14612606bab8bc01ad bfa4faa0c811567b8ac1ae9e16f250d5248671d5 shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00171008 MX6Q/MFGTOOL : disable the workaround for MFGTOOL
+bfa4faa0c811567b8ac1ae9e16f250d5248671d5 5cf0a31672e4fa02d5c128a8cda78a28409c279b shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00171091 [MX6]Remove workaround for reset issue
+5cf0a31672e4fa02d5c128a8cda78a28409c279b 9f777c1d93060cb3c84feca1763425a65e12e476 shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00171115 add fec support in mx6q sabreauto board
+9f777c1d93060cb3c84feca1763425a65e12e476 4b7b325f3db4f2d1fbd5e2cefea5aa41eeb445ec shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00171622 - FEC : workaround for Gb enet in sabrelite board.
+4b7b325f3db4f2d1fbd5e2cefea5aa41eeb445ec ae7b5f835819c09cdd90465af63517d1f47b5970 shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00171633 MX6Q: config: android: update default config.
+ae7b5f835819c09cdd90465af63517d1f47b5970 69163f43c24c185ff032bc0b0777d6e2d476aad7 shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00171872 Android: update sabrelite default config fix a typo.
+69163f43c24c185ff032bc0b0777d6e2d476aad7 c79c54b21e9ad24a1673d455763ca32c468a9822 shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00171771 [MX6]Need to power down PCIe by default
+c79c54b21e9ad24a1673d455763ca32c468a9822 7d701e34a8a657e7376011ec9253a3e84ca9966b shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00171968 mx6q sabrelite: fixup the sabrelite default bootargs typo
+7d701e34a8a657e7376011ec9253a3e84ca9966b a1496e15e27460159b6c2d465977ee973d262045 shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00172490: FIX: PMIC registers may not be accessible in u-boot via SPI
+a1496e15e27460159b6c2d465977ee973d262045 9bcda3381ca6f68cea51831b5d0c83808328b17d shenchun <shenchun@pset.suntec.net> 1394624259 +0800	am: ENGR00172541 Delete bootcmd_base from the MX6 Sabre-lite config
+9bcda3381ca6f68cea51831b5d0c83808328b17d 6b853b29638e220815078ab94441dc781577208a shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00172343 Add suport for i.MX 6Q Sabre Smart Device
+6b853b29638e220815078ab94441dc781577208a 6b825c9fce0b33dd5c641c1f4236fb58ab004a3c shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00173579 Revert FEC: Fix FEC cannot load kernel accroding tftp.
+6b825c9fce0b33dd5c641c1f4236fb58ab004a3c 7205d790aed5490b09e51ca75023fab16a8a0fc6 shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00173659 MX6Q_UART Change Phyisical to Virtural Port Mapping
+7205d790aed5490b09e51ca75023fab16a8a0fc6 a52d7eaaadfa21521c74fa9097c50f75e2733a9a shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00173966-1: i.mx6dl: add the iomux head file
+a52d7eaaadfa21521c74fa9097c50f75e2733a9a 74e6f8776ccab3b7f81a5220c0744676ff347f06 shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00173966-2: fec: add i.mx6dl support
+74e6f8776ccab3b7f81a5220c0744676ff347f06 77277be7ea6c7a6d3f93a38f1d9d214a33e233ac shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00173966-3: ARM2: i.mx6dl: add the DDR script
+77277be7ea6c7a6d3f93a38f1d9d214a33e233ac d21c34f043cbe81a76fb1dc6cb7ca818c7a3fbad shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00173966-4: ARM2: add initial support for i.mx6sdl
+d21c34f043cbe81a76fb1dc6cb7ca818c7a3fbad bcdf991ac8ee0a972b63121775bea626943d0f3e shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00174055: i.mx6dl: ddr: update ddr script to 400M_64bit_v1.1
+bcdf991ac8ee0a972b63121775bea626943d0f3e 3bdce55fb9dcf2508b323443c100e8b603448e53 shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00174155: i.mx6sdl: add 32bit DDR support on ARM2 board
+3bdce55fb9dcf2508b323443c100e8b603448e53 208fed381bea9f992ab38e1a3602a4acec60102e shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00174155-2 i.mx6sdl: enable i.mx6solo config by default
+208fed381bea9f992ab38e1a3602a4acec60102e 6cbf04df09887ca6f1ea43c02917561c4f4283b9 shenchun <shenchun@pset.suntec.net> 1394624260 +0800	am: ENGR00174155-3 i.mx6sdl: enable i.mx6solo config by default
+6cbf04df09887ca6f1ea43c02917561c4f4283b9 acb5b0b8ef0883616023d09e9940ee897b351fec shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174221 imx6dl remove unnecessary configs for NAND
+acb5b0b8ef0883616023d09e9940ee897b351fec cb6a0d37a52e36ce5125306db8b1092c671aceb9 shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174104-1: Add conditional CONFIG to fix build break
+cb6a0d37a52e36ce5125306db8b1092c671aceb9 cf8c87712184542233da0f2824f74d5b0aa37ba6 shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174104-2: Add mx6dl iram boot config
+cf8c87712184542233da0f2824f74d5b0aa37ba6 fe1b22c94c50992ce8c3998bbb33a033f020c6b5 shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174104-3: Fix mx6 iram boot configs' issue
+fe1b22c94c50992ce8c3998bbb33a033f020c6b5 67b19a8c5e394bb58cdc274e4f74990a58ca8bf9 shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174104-4: Fix iram build error in imx6
+67b19a8c5e394bb58cdc274e4f74990a58ca8bf9 77bf254ad7fdf99a220f0f5b614465c17ea3ffc0 shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174230: Move partition command from nand to sata in mx6
+77bf254ad7fdf99a220f0f5b614465c17ea3ffc0 578bfac417ee2c304f8a71031f18f9246ceee4f7 shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174407 imx6dl: add MFG tool support
+578bfac417ee2c304f8a71031f18f9246ceee4f7 bcf6e6d02e134d4549c274a9d7bacb9964023428 shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174326 MX6Q_SABRESD: add android related function and config.
+bcf6e6d02e134d4549c274a9d7bacb9964023428 935216fea8a06b1123a4751c7367107f034d066e shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00139213: Add read and change voltage support for mx6
+935216fea8a06b1123a4751c7367107f034d066e ed6d506a1de0464da00084f13b495d50930f890e shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174626: Fix cmd_regul build error
+ed6d506a1de0464da00084f13b495d50930f890e 91bf0e9a5fe62ca9f93d61a28b1e7a0c2ddaa9a1 shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174625: Remove build warnings for mx6q
+91bf0e9a5fe62ca9f93d61a28b1e7a0c2ddaa9a1 bda38a9c06aca21d050406880e16f450df873eaa shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174536-1 booti: add booti command support.
+bda38a9c06aca21d050406880e16f450df873eaa 46b9a6beaf7a5560d6ed36ead918555f1c7dccee shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174536-2 MX6Q_SABRE[SD/Lite]: change bootcmd to booti
+46b9a6beaf7a5560d6ed36ead918555f1c7dccee 28970c5f6281271dc34d9d3fa96ba42f36ff8801 shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174821 booti: fix build error when not configure android partition.
+28970c5f6281271dc34d9d3fa96ba42f36ff8801 4bc1d1a25b0b4e547beea9eaf04d8b4d0535f3b3 shenchun <shenchun@pset.suntec.net> 1394624261 +0800	am: ENGR00174841 [U-Boot]Add a command to erase any pre-saved environment
+4bc1d1a25b0b4e547beea9eaf04d8b4d0535f3b3 90cd6edd67aec252775ad4d6d0b9fcd496671f2a shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00174868 mx6dl arm2: change the default console as ttymxc3
+90cd6edd67aec252775ad4d6d0b9fcd496671f2a fe84cc080879465106b24b4a40fb5d225772d8ae shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00175091 MX6Q_SABRESD: android: add recovery check
+fe84cc080879465106b24b4a40fb5d225772d8ae 694453c4b34dc7c73aa660a61cc7747fb93ed1bd shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00175117 [MX6DL LPDDR2 Board] Apply Initializtion script and enable U-Boot
+694453c4b34dc7c73aa660a61cc7747fb93ed1bd ff71d0149651f85634983e7dde20b12ee128f1e6 shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00175981-1 mx53 smd: add CPU 1.2GHz configuration
+ff71d0149651f85634983e7dde20b12ee128f1e6 2cc330f1088594fb009efce7498d97b586d7dfa4 shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00175981-2 mx53 smd android: fix build error
+2cc330f1088594fb009efce7498d97b586d7dfa4 797e8f5b30c79d3a2af709a979f4fe25e799080a shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00176186 mx6dq ARD: add MFG tool support
+797e8f5b30c79d3a2af709a979f4fe25e799080a d3968d104b415e5d00852ab96e30a22510077ec9 shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00176235 mx6 ARD: Add splash screen support
+d3968d104b415e5d00852ab96e30a22510077ec9 116b3a3a1632ebe6b865661846aa3e0eea6634bd shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00176328 change fastboot vid to google orignal
+116b3a3a1632ebe6b865661846aa3e0eea6634bd 64e43ef63a3b60c80759d1623c0cc00bfba6e8a3 shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00176347-1 mx6solo sabreauto: add configuration support
+64e43ef63a3b60c80759d1623c0cc00bfba6e8a3 9bffc5aa0249306b7592cecf5fe09ca57b87639e shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00176347-2 mx6solo sabreauto: add DDR3 support
+9bffc5aa0249306b7592cecf5fe09ca57b87639e c7dd7f09cdfce3bc9664b7023f71f6629e4c309f shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00176347-3 mx6solo sabreauto: add board support
+c7dd7f09cdfce3bc9664b7023f71f6629e4c309f a9e3e1b8b712b93251faaa3b49f465fcf412dfb2 shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00176347-4 anatop: add support for mx6solo/dl
+a9e3e1b8b712b93251faaa3b49f465fcf412dfb2 28ddd7c96b3f782cc5eb7147ed1d13b587f5da8b shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00176347-5 mx6solo sabreauto: set system_rev
+28ddd7c96b3f782cc5eb7147ed1d13b587f5da8b 061cae9f13cee104ed6fa53689ac97a819213aea shenchun <shenchun@pset.suntec.net> 1394624262 +0800	am: ENGR00176347-6 mx6solo sabreauto: remove build warning
+061cae9f13cee104ed6fa53689ac97a819213aea f2b9b4d5e49e539406a4f216090e6a77caebe731 shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00176347-7 bootm: remove build warning
+f2b9b4d5e49e539406a4f216090e6a77caebe731 f1a5ad440ae81871b309577354d5fd9a2e7b3a22 shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00176347-8 cmd_bootm: remove build warning
+f1a5ad440ae81871b309577354d5fd9a2e7b3a22 17de8a8b94971aabac717bc49fdb9da9a4ee68ce shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00176347-9 fec : increase wait time for phy link
+17de8a8b94971aabac717bc49fdb9da9a4ee68ce 2a603df4cb2c021799bac03e6218f2c4783fcaaa shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00177070 android: isolate booti command to fix build.
+2a603df4cb2c021799bac03e6218f2c4783fcaaa de495020b0ac47a227fe1693de0a4a37dfecc686 shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00176834-1 - [imx6] : add fsl_system_rev to check chip and board.
+de495020b0ac47a227fe1693de0a4a37dfecc686 b1e217e43a146ea04b846212e84b583b8b49ae2c shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00176834-2 - i.MX6DL sabresd: board bringup
+b1e217e43a146ea04b846212e84b583b8b49ae2c d8e0e4b71e0f14f2e26fae679050186685f31409 shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00176834-3 - i.MX6DL sabresd : DDR init script update
+d8e0e4b71e0f14f2e26fae679050186685f31409 d77a1d9111402e4b11b95f0727163ae68571e2f0 shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00177244 - imx6 : Use common fsl_sys_rev to check board reversion
+d77a1d9111402e4b11b95f0727163ae68571e2f0 6d026fd471cf7b974efa1bc1f99d40a5dc85d623 shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00177587 MX6Q_ARM2: add android config for this board.
+6d026fd471cf7b974efa1bc1f99d40a5dc85d623 dc652de9839d8250068b4ea3eb1a0c5f56d8c4e4 shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00176837-1 - imx6 sabreauto : add net support for revb boards.
+dc652de9839d8250068b4ea3eb1a0c5f56d8c4e4 7cebfc0e93f7e0e3ec34002fbbda708771f020af shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00176837-2 - imx6 sabreauto : add i2c3 support for revb board.
+7cebfc0e93f7e0e3ec34002fbbda708771f020af 8ef414642625689524fc8265e4ee62231275dcde shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00176837-3 - FEC : detect phy ID to match the phy type.
+8ef414642625689524fc8265e4ee62231275dcde 20e7cd8edae03d1f8d9b8678a2ee4f064e636a0d shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00176837-4 - imx6solo sabreauto : remove Ethernet phy MICREL macro.
+20e7cd8edae03d1f8d9b8678a2ee4f064e636a0d 5cd2867aa045c5fe7abe9b2b35f9734d878bcf32 shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00177657: Add mfg configs for mx6dl sabresd and mx6solo sabreauto
+5cd2867aa045c5fe7abe9b2b35f9734d878bcf32 2278bff0485d29d6e8c02e042ebc53c7702d9598 shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00177783: i.mx6dl: sabresd revB: update DD3 init script
+2278bff0485d29d6e8c02e042ebc53c7702d9598 0a5c3784030e32ec6d2db2afa737485cf4f90755 shenchun <shenchun@pset.suntec.net> 1394624263 +0800	am: ENGR00177905 : i.mx6q sabresd: add fec auto discover phy configuration.
+0a5c3784030e32ec6d2db2afa737485cf4f90755 5cb2b0260e17b7ba727d2f5983d381292a774476 shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00177909: mx6q/mx6dl SabreSD: SPI-NOR flash not probed as expected
+5cb2b0260e17b7ba727d2f5983d381292a774476 5aaca8eec37bd1643693087ea05b4e835040dbf3 shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00177954 mx6solo sabreauto: remove MMDC1 setting
+5aaca8eec37bd1643693087ea05b4e835040dbf3 b3f364e05429369eabf9836ec572240320c02990 shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: mmc: CMD7:MMC_CMD_SELECT_CARD response fix
+b3f364e05429369eabf9836ec572240320c02990 bff2e7f3db0755a18bd0f92f2a6c4f3c2cd737ea shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00178547 i.mx6dl sabresd: add android config file
+bff2e7f3db0755a18bd0f92f2a6c4f3c2cd737ea 29920e03dc50563c4070cd5fa79521731643a54c shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00178024 mx6solo sabreauto: add nosmp arm_freq=800 by default
+29920e03dc50563c4070cd5fa79521731643a54c 4bcf36b2381bd348a83a77d1846301cae22ed955 shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00178558 mx6solo sabreauto: integrate DDR3 script V1.1
+4bcf36b2381bd348a83a77d1846301cae22ed955 41080f6af5c4d92eed8604233134ca16c52eebed shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00176834-4 - [imx]:add macro define to include chip head file
+41080f6af5c4d92eed8604233134ca16c52eebed d8f17b41d909c49e8d43fcee0652dc23b9b09e30 shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00176837-4 - FEC:enable some macro define for all chip
+d8f17b41d909c49e8d43fcee0652dc23b9b09e30 151e5b2fdfe27200303c391262e0ca0a995e5b05 shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00139223-1 [MX6Q] Secure Boot, enable HAB on ARM2 platform (Stage 1)
+151e5b2fdfe27200303c391262e0ca0a995e5b05 fd91a1880f98b253bb2c97fcf3ab703f5033f4c1 shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00139223-2 [MX6Q] Secure Boot, enable HAB on ARM2 platform (Stage 2)
+fd91a1880f98b253bb2c97fcf3ab703f5033f4c1 73482ff687bb0ced44c9738079f098bc9813e2c6 shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00178989: Disable secrity boot configs.
+73482ff687bb0ced44c9738079f098bc9813e2c6 ddbb28af69c403aafa64f29023ee5a69c6d4a20d shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00176537 mx6qsabreauto: i2c3_sda route setting
+ddbb28af69c403aafa64f29023ee5a69c6d4a20d 744ab7ed19555747f3f7a774240033e43e8f8270 shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00179150 MX6Q_ARM2 HAB Boot : avoid uImage authentication on un-fused chip
+744ab7ed19555747f3f7a774240033e43e8f8270 8d811c2c993c8154289fdab06f7ed045d5d22e8f shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00179437-1: u-boot: iomux: NO_PAD_I/NO_PAD_MUX not set corretly
+8d811c2c993c8154289fdab06f7ed045d5d22e8f 4121551e10fb89715dc3b12927798c9f96896e72 shenchun <shenchun@pset.suntec.net> 1394624264 +0800	am: ENGR00179437-2 u-boot: mx6q: iomux: code clean up
+4121551e10fb89715dc3b12927798c9f96896e72 f547931ae46064f29eba8898cf2994f40d0300db shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: ENGR00179000 i.mx6q/dl: sabresd: Add the splash screen support
+f547931ae46064f29eba8898cf2994f40d0300db 71b45b95c81df7f97bfc237b9013a4a0014c94be shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: ENGR00179013 : MX6Solo/Quad : SABREAUTO: Add Parallel NOR Support
+71b45b95c81df7f97bfc237b9013a4a0014c94be 5933850b513f520d80a16ddbdbbf7ebd18f6cd9d shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: ENGR00179762: i.MX6: print the SOC revision correctly
+5933850b513f520d80a16ddbdbbf7ebd18f6cd9d 0083b51791773849a34c673a0da0deba3fdfed7f shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: MX: Added Freescale Power Management Driver
+0083b51791773849a34c673a0da0deba3fdfed7f 1f0b1747f63cc5b3f1f92003dcabb66f511cdecc shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: misc:pmic:core New generic PMIC driver
+1f0b1747f63cc5b3f1f92003dcabb66f511cdecc 9474c86514ee8644270da4f79a942b96e0517d0d shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: misc: pmic: use I2C_SET_BUS in pmic I2C
+9474c86514ee8644270da4f79a942b96e0517d0d a63f41f2e35b657189c18c72718b4ca344120413 shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: misc: pmic: addI2C support to pmic_fsl driver
+a63f41f2e35b657189c18c72718b4ca344120413 b26cb18c3c23b96852fc9658360490a275e2dbfa shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: misc: pmic: fix regression in pmic_fsl.c (SPI)
+b26cb18c3c23b96852fc9658360490a275e2dbfa f528d65615f11b5c2909d922ed09853ee2732059 shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: Add generic gpio.h in asm-generic
+f528d65615f11b5c2909d922ed09853ee2732059 87fb0faf50312fe45e0bb911f0e03ac3be7ae975 shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: IMX: uniform GPIO interface using GPIO framework
+87fb0faf50312fe45e0bb911f0e03ac3be7ae975 7d2f2ade2b364b202a94c95d623c559c791f9a3c shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: MX: Added definition file for MC13892
+7d2f2ade2b364b202a94c95d623c559c791f9a3c 882471a46aa1ac2f1174100acc4946eb0ba6e8f7 shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: ENGR00180623 fastboot: add fastboot in MX6Q_SABERSD boards
+882471a46aa1ac2f1174100acc4946eb0ba6e8f7 d98de235b0a6d1465e521590596ab7828dff25ef shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: ENGR00180955 mx6q sabresd snvs TKT104835: fix long press ONOFF failed in u-boot
+d98de235b0a6d1465e521590596ab7828dff25ef 62fe013b985af2f41870175583e73b8daed2be3f shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: ENGR00181337-1 i.mx6 : add initial support for i.mx6sl
+62fe013b985af2f41870175583e73b8daed2be3f e6c4c8814608912da6115e27bd204cea58ddd232 shenchun <shenchun@pset.suntec.net> 1394624265 +0800	am: ENGR00181337-2 i.mx6 : i.mx6sl arm2 add EPDC support
+e6c4c8814608912da6115e27bd204cea58ddd232 7617c06f6f7367c7961535f2b349bfbdbd822a36 shenchun <shenchun@pset.suntec.net> 1394624266 +0800	am: ENGR00181337-3 i.mx6: i.mx6sl: add initial support for i.mx6sl ARM2 board
+7617c06f6f7367c7961535f2b349bfbdbd822a36 59c1766171de5ae4abc0a61d78294f90473dfefc shenchun <shenchun@pset.suntec.net> 1394624266 +0800	am: ENGR00181337-4 i.mx6 : i.mx6sl: Fix FEC RX CRC Error
+59c1766171de5ae4abc0a61d78294f90473dfefc 71947e0881fe131ab94559b1b97976d99e559d50 shenchun <shenchun@pset.suntec.net> 1394624266 +0800	am: ENGR00181621 : MX6Solo SABREAI - Set default boot up to SD Card
+71947e0881fe131ab94559b1b97976d99e559d50 81cdf9674be2c64c3478b438be66dcb0f362ea62 shenchun <shenchun@pset.suntec.net> 1394624266 +0800	am: ENGR00181348 pfuze sabresd: pfuze support in u-boot
+81cdf9674be2c64c3478b438be66dcb0f362ea62 d3446b313d02a03430e2feae2afe0261aa8c27f1 shenchun <shenchun@pset.suntec.net> 1394624266 +0800	am: ENGR00182017 mx6dl sabresd I2C: fix build error and support mx6dl_sabresd
+d3446b313d02a03430e2feae2afe0261aa8c27f1 bda82246cf3e5c1a98f13fbe5edec58df749e2a1 shenchun <shenchun@pset.suntec.net> 1394624266 +0800	am: ENGR00182426 MX6DL: add fastboot support for MX6DL.
+bda82246cf3e5c1a98f13fbe5edec58df749e2a1 6fd3381babf320ee59c793896a7ac4c6bef8e4ca shenchun <shenchun@pset.suntec.net> 1394624266 +0800	am: ENGR00182739 sabresd I2C:add i2c recovery function in board_lateinit
+6fd3381babf320ee59c793896a7ac4c6bef8e4ca 9fe92bbed4bfb536f410431065d9f60dc8bdd596 shenchun <shenchun@pset.suntec.net> 1394624266 +0800	am: ENGR00182459 fastboot: change vid pid to align with winXP fastboot driver.
+9fe92bbed4bfb536f410431065d9f60dc8bdd596 43258acd48029975ecf27f8cb69d69b5627995d6 shenchun <shenchun@pset.suntec.net> 1394624266 +0800	am: ENGR00209059 android: refine fastboot and recovery support.
+43258acd48029975ecf27f8cb69d69b5627995d6 e030b3637258a8d2f97845e17f33a87a54fbd8c2 shenchun <shenchun@pset.suntec.net> 1394624266 +0800	am: ENGR00209306 i.mx6:i.mx6sl: fixup the load address for i.mx6sl uImage
+e030b3637258a8d2f97845e17f33a87a54fbd8c2 1da47d0ad28392de22903f02db48bbf8ca801c92 shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00180103 MX6 sabreauto: Adjust IPU AXI-id0/1 Qos value
+1da47d0ad28392de22903f02db48bbf8ca801c92 48044b3c9fb29d057599a45cd790ccdff829125b shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00210014 i.mx6 : i.mx6sl : add PAD_CTL_LVE support for pad configuration
+48044b3c9fb29d057599a45cd790ccdff829125b 5ae617e197a8986ce702d9f62e6611f259b0c9f6 shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00209899-1 mx6x: add generic gpio interface.
+5ae617e197a8986ce702d9f62e6611f259b0c9f6 fb1d6a50b3a340397b9dec6dc86591ed1fd3b055 shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00209899-2 MX6Q: cleanup: cleanup fastboot, udc warnning.
+fb1d6a50b3a340397b9dec6dc86591ed1fd3b055 4e5112332d9f2970c548ff896b76e28dbeb495dc shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00209910 Add support for MX6SL mfgtools firmware support
+4e5112332d9f2970c548ff896b76e28dbeb495dc 92028b431ad5f408c6edf1cff34213375a53998c shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00210918-1 android: add mx6sl android support
+92028b431ad5f408c6edf1cff34213375a53998c 1f6a3a097985257035d6af4829c8815f8057572d shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00210918-2 cleanup android support, build pass all boards
+1f6a3a097985257035d6af4829c8815f8057572d c4a57ce8ba9420252c8cf182cddd4e567e808ab5 shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00211038 Fix the PAD_LVE implementation
+c4a57ce8ba9420252c8cf182cddd4e567e808ab5 ec25c81283800b8801a4dc6ca1db2a200f0d0f14 shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00211117 - U-Boot: Add EPDC splash screen for MX 6DL/S platforms
+ec25c81283800b8801a4dc6ca1db2a200f0d0f14 3365fc92a1387841c5f12e396d4133897555861c shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00212287 - U-Boot EPDC splash screen: Disable EPDC splash by default
+3365fc92a1387841c5f12e396d4133897555861c b7cc66463450cba3fe71940e73cff55f2ecf95ff shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00212571 [MX6]Change DRAM ODT setting to save power
+b7cc66463450cba3fe71940e73cff55f2ecf95ff 748cfd2193da4baec59757c3fdb2328ef4ccb47c shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00212229 [MX6SL_ARM2]uboot: 8bit MMC cards failed to boot on SD1.
+748cfd2193da4baec59757c3fdb2328ef4ccb47c 9aa3b249deb199bd8365201f7cd81303c1127e1c shenchun <shenchun@pset.suntec.net> 1394624267 +0800	am: ENGR00213689 - U-Boot: EPDC Splash Screen failing for MX 6DL/S
+9aa3b249deb199bd8365201f7cd81303c1127e1c bfef1f23fc20b48480a107ab31d5e49bea53b914 shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00214866 MX6SL ARM2, UBoot : Apply V0.91 LPDDR2 Script
+bfef1f23fc20b48480a107ab31d5e49bea53b914 e136addbbcfd19a7cc492e88fd58c56573edfb0b shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00214947 MX6 UBOOT : default enable wait mode as default parameters
+e136addbbcfd19a7cc492e88fd58c56573edfb0b f01ed92e392552746528a6c322fbbbbe52e101d1 shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00215515 MX6: Move IPU QoS and VDOA/IPU/VPU AXI Cache config to kernel
+f01ed92e392552746528a6c322fbbbbe52e101d1 f77af2801dd1340a23ca24434696d9e02abea85e shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00215633 MX6DL LPDDR2 : enable plugin mode of system boot
+f77af2801dd1340a23ca24434696d9e02abea85e 11a315b3c2b6393514c9ebf8ebfb6e06ba9c90bb shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00215367 MX6 Platforms, remove "nosmp" in default parameters
+11a315b3c2b6393514c9ebf8ebfb6e06ba9c90bb 74de5646c1768a2c657967a48f4776919bc606f8 shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00215197 pfuze MX6SL_ARM2: enable LDO bypass on u-boot
+74de5646c1768a2c657967a48f4776919bc606f8 5f2281b1b580aae5b82170161668d77951f4d066 shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00216852 MX6SL ARM2, UBoot : Apply V0.93 LPDDR2 Script
+5f2281b1b580aae5b82170161668d77951f4d066 832745beb64445a48d25dd4bb530fc6fe1a7dd5a shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00217114-1 MX6 U-Boot, Secure Boot, one code base for MX6Q/DL/SL
+832745beb64445a48d25dd4bb530fc6fe1a7dd5a 5b73c4565970bd943717c8e7ffda8bba7f3288ce shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00217114-2 MX6 U-Boot, Secure Boot, one code base for MX6Q/DL/SL
+5b73c4565970bd943717c8e7ffda8bba7f3288ce cd66adf125716b8ee6fc1d206efd48be6d70b95a shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00217381-01: mx6sl add sd1 and sd2 to support SD3.0
+cd66adf125716b8ee6fc1d206efd48be6d70b95a b5f9cff018989fa652b676f77b18a91d0051f7f9 shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00217381-02: show sd/mmc clk freq for mmcinfo
+b5f9cff018989fa652b676f77b18a91d0051f7f9 c8265f6c95dde7f09190ced5f7508709176fd47a shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00217764 MX6 Secure Boot : Fix NAND BOOT Failure due to secure patch
+c8265f6c95dde7f09190ced5f7508709176fd47a 0556432feb131cff93f155fdf5fdfe883aaa6d2d shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00218067 mx6sl LDO_BYPASS: enable LDO BYPASS in mx6sl by default
+0556432feb131cff93f155fdf5fdfe883aaa6d2d dcffb78d2f5ebfb577c453a999536a833a30e77d shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00218282 MX6Q: fix linker error when more configure enabled.
+dcffb78d2f5ebfb577c453a999536a833a30e77d a604ad2a75b2d8c1f89474d1edf48e040d1b58d8 shenchun <shenchun@pset.suntec.net> 1394624268 +0800	am: ENGR00217401 common: fix build warning
+a604ad2a75b2d8c1f89474d1edf48e040d1b58d8 aeb01c15ea19340d633b86c1ba303857d50be8fe shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00218465 Android: mx6sl-arm2: fix fastboot crash issue
+aeb01c15ea19340d633b86c1ba303857d50be8fe 2789b0fc112e6142032040b72d080033d2834696 shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00218805 imx6: print the silicon revision correctly
+2789b0fc112e6142032040b72d080033d2834696 d0788c598179e498c72d44c9a2016c7705221668 shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00218583-1 MX6Q/DL SabreSD:Support LVDS1 splashimage
+d0788c598179e498c72d44c9a2016c7705221668 2f9b707018cf7385d91121b8fc81cc104bd886ff shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00218583-2 MX6Q SabreSD:Enable splashimage by default
+2f9b707018cf7385d91121b8fc81cc104bd886ff 9293eba087a50629b9ef269d6927386eff2d4650 shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00218583-3 MX6DL SabreSD:Enable splashimage by default
+9293eba087a50629b9ef269d6927386eff2d4650 d0b8f5cec05a8bc56c144fc6354a4b1947250906 shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00218583-4 MX6Q SabreSD Android:Add splashimage uboot var
+d0b8f5cec05a8bc56c144fc6354a4b1947250906 34ac5a40843552267d3a59f1d8ad1ded38434850 shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00218583-5 MX6DL SabreSD Android:Add splashimage uboot var
+34ac5a40843552267d3a59f1d8ad1ded38434850 72cce677fb535a83da40e7c9c3644cbb2d88b43e shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00218972 MX6 Secure Boot, Change to dynamic HAB data authentication
+72cce677fb535a83da40e7c9c3644cbb2d88b43e c13339c31cb755299a8efb0b57d8591d7e398fd8 shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00218915-1 FSL common:Add new boot logo
+c13339c31cb755299a8efb0b57d8591d7e398fd8 5acb6154636d1844d145f17183564222df2a2f6e shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00218915-2 MX6 SabreSD:Use new 8bit bmp boot logo
+5acb6154636d1844d145f17183564222df2a2f6e ebf8adc952367caf8ffd8a439551a826fcab8b82 shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00219636 MX6 UBOOT : Enlarge command line buffer size
+ebf8adc952367caf8ffd8a439551a826fcab8b82 3d0a842016116f8fe61c9af8a4cf81d8b826f6a6 shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00219854-1 Enable fastboot feature on mx6q-arm2 board
+3d0a842016116f8fe61c9af8a4cf81d8b826f6a6 149f61890c547f1960e56fdc7865cfef4c099d7d shenchun <shenchun@pset.suntec.net> 1394624269 +0800	am: ENGR00220076 fix the fastboot usb re-connect issue
+149f61890c547f1960e56fdc7865cfef4c099d7d abd90dd13acf57b65a2eddbb9497757c82151129 shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00220164 pfuze:rise VDDARM_IN to 1.425V and work around pfuze1.0
+abd90dd13acf57b65a2eddbb9497757c82151129 ff044f7accb6b0fcbd5102d5db7a18aa63258bc2 shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00220161: imx6sl: Add MX6SL EVK Support
+ff044f7accb6b0fcbd5102d5db7a18aa63258bc2 4ab0026ffa49ac6a242982a168f4a0fb78e987a2 shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00220486 Modify ODT values for Solo AI
+4ab0026ffa49ac6a242982a168f4a0fb78e987a2 0d28ed73e0cc36085875bb59942fa945457cd49e shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00217505-1 uboot: MX6Q-ARD: add a NAND boot config
+0d28ed73e0cc36085875bb59942fa945457cd49e 24bba5735dd155a35db79a0ec8d253a73d7cb1e8 shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00217505-2 uboot: mtd: update nand_get_flash_type()
+24bba5735dd155a35db79a0ec8d253a73d7cb1e8 fdb6ec5f99bd0bf5e9a9e2114384e48b59354179 shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00217505-3 uboot: gpmi: use the community's nand chip database
+fdb6ec5f99bd0bf5e9a9e2114384e48b59354179 0ee23e720be9cbc69e49d901e3107bbed64bfb74 shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00217505-4 uboot: gpmi: replace the gpmi_nfc_reset_block()
+0ee23e720be9cbc69e49d901e3107bbed64bfb74 56e8a7b60b51364841de964f70332330d467a193 shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00217505-5 uboot: gpmi: update the ecc_strength code
+56e8a7b60b51364841de964f70332330d467a193 37bc7fad4e6fcdd826a377fa2606dffa2d87513b shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00217505-6 uboot: gpmi: set default value for busy_timeout
+37bc7fad4e6fcdd826a377fa2606dffa2d87513b d7ac9d0d5c505a52e799e68d0d223e52d6df71a9 shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00217505-7 uboot: gpmi: update the mtd->ecc_stats when reading page failed
+d7ac9d0d5c505a52e799e68d0d223e52d6df71a9 61b83109a8c7ad5594a597122d85cff7be871184 shenchun <shenchun@pset.suntec.net> 1394624270 +0800	am: ENGR00217505-8 uboot: MX6Q-ARD: set the default gpmi clock to 20MHz
+61b83109a8c7ad5594a597122d85cff7be871184 291430f58bd8db7ad4cc3b4bd411102c490d4d3d shenchun <shenchun@pset.suntec.net> 1394624271 +0800	am: ENGR00180538-1 MFG download burn sd,spi, nand, nor failed.
+291430f58bd8db7ad4cc3b4bd411102c490d4d3d 811098b1e79047f6c7a0eda32ebbc2753d1b8132 shenchun <shenchun@pset.suntec.net> 1394624271 +0800	am: ENGR00220824: mx6sl_evk: mmc: only SD1 supports 8bit on evk board.
+811098b1e79047f6c7a0eda32ebbc2753d1b8132 09c15cce121d6bd292ae9af5c7a42e2ae59a9657 shenchun <shenchun@pset.suntec.net> 1394624271 +0800	am: ENGR00221150 Support spi-nor on manufacturing tool
+09c15cce121d6bd292ae9af5c7a42e2ae59a9657 77e8d059d0c7bface40cd6b3de9dd2c004907ead shenchun <shenchun@pset.suntec.net> 1394624271 +0800	am: ENGR00221135: imx6x: clear PowerDown Enable bit of WDOG1_WMCR
+77e8d059d0c7bface40cd6b3de9dd2c004907ead 5be4bbddeb25a54a30eafc90011c60528bb6475f shenchun <shenchun@pset.suntec.net> 1394624271 +0800	am: ENGR00221332: U_BOOT: remove "boot" and "enable" from configs' name
+5be4bbddeb25a54a30eafc90011c60528bb6475f 5f008aee1c73d90c195a2c65962f02c96273e249 shenchun <shenchun@pset.suntec.net> 1394624271 +0800	am: ENGR00221013 MX6 SabreSD:Disable LVDS panel CABC function
+5f008aee1c73d90c195a2c65962f02c96273e249 ddeb43dfcc12e9751f7590658e745b4f8f5f789f shenchun <shenchun@pset.suntec.net> 1394624271 +0800	am: ENGR00219316-2: mx6q sabreauto enable lvds backlight by default
+ddeb43dfcc12e9751f7590658e745b4f8f5f789f cfc32d883935042a85423af41704f520dd16d116 shenchun <shenchun@pset.suntec.net> 1394624272 +0800	am: ENGR00219316-1: mx6 sabreauto: enable mxc_gpio support
+cfc32d883935042a85423af41704f520dd16d116 26a6a1f0d01288af4a425813401ccf23c4484807 shenchun <shenchun@pset.suntec.net> 1394624272 +0800	am: ENGR00221503-2 imx6: add cpu serial number support.
+26a6a1f0d01288af4a425813401ccf23c4484807 43835aa55996c3dc764452059e893356d24f8ea8 shenchun <shenchun@pset.suntec.net> 1394624272 +0800	am: ENGR00221503-1 cmd_imxotp: refine the help of this command.
+43835aa55996c3dc764452059e893356d24f8ea8 4878b7a6f50c5ec367a51b56f8e9bb2893e4bfd7 shenchun <shenchun@pset.suntec.net> 1394624272 +0800	am: ENGR00223236-1 [MX6]Change the temperature range to -40C ~ 125C
+4878b7a6f50c5ec367a51b56f8e9bb2893e4bfd7 7c047e5229ecb1dd5513d0b93c06bfb6e1b804d9 shenchun <shenchun@pset.suntec.net> 1394624272 +0800	am: ENGR00224272: MFG:i.mx6q/ARM2 enable CONFIG_CMD_IMXOTP to fix the build error
+7c047e5229ecb1dd5513d0b93c06bfb6e1b804d9 3682f1a93cd716a96c8a1d9804fd0c9d4f08250d shenchun <shenchun@pset.suntec.net> 1394624272 +0800	am: ENGR00224291:i.MX6Q/ARM2-LPDDR2:enable CONFIG_CMD_IMXOTP to fix the build error
+3682f1a93cd716a96c8a1d9804fd0c9d4f08250d 045898d735227dda8a7194057d1487bd3bbe7045 shenchun <shenchun@pset.suntec.net> 1394624272 +0800	am: ENGR00224313:i.MX6 general:enable CONFIG_CMD_IMXOTP to fix the build error
+045898d735227dda8a7194057d1487bd3bbe7045 f892608d6370680ac206fad9de5084525969224d shenchun <shenchun@pset.suntec.net> 1394624273 +0800	am: ENGR00226048 Fix weim nor for mfg tool
+f892608d6370680ac206fad9de5084525969224d becb8652ac409699772bb6d356fcfdb3c101a8fa shenchun <shenchun@pset.suntec.net> 1394624273 +0800	am: ENGR00225486 Support for spi-nor boot
+becb8652ac409699772bb6d356fcfdb3c101a8fa 79e40c145a65a12308b6cfa3d7b704327799a8e8 shenchun <shenchun@pset.suntec.net> 1394624273 +0800	am: ENGR00225691 NAND support on i.MX6Solo ARD
