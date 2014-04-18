@@ -39,6 +39,7 @@ SECTIONS
 	  /* WARNING - the following is hand-optimized to fit within	*/
 	  /* the sector layout of our flash chips!	XXX FIXME XXX	*/
 	  board/freescale/mx6q_collage/flash_header.o	(.text.flasheader)
+	  board/freescale/mx6q_collage/test.o			(.text)
 	  cpu/arm_cortexa8/start.o
 	  board/freescale/mx6q_collage/libmx6q_collage.a	(.text)
 	  lib_arm/libarm.a		(.text)

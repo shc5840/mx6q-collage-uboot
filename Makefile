@@ -154,6 +154,7 @@ all:
 sinclude $(obj)include/autoconf.mk.dep
 sinclude $(obj)include/autoconf.mk
 
+ARCH := arm
 # load ARCH, BOARD, and CPU configuration
 include $(obj)include/config.mk
 export	ARCH CPU BOARD VENDOR SOC
@@ -162,6 +163,7 @@ export	ARCH CPU BOARD VENDOR SOC
 ifeq ($(HOSTARCH),$(ARCH))
 CROSS_COMPILE ?=
 endif
+CROSS_COMPILE := /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-
 
 # load other configuration
 include $(TOPDIR)/config.mk

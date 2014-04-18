@@ -31,14 +31,61 @@
 	(((l) & 0x00FF0000) >> 8)  | \
 	(((l) & 0xFF000000) >> 24))
 
+#ifdef CONFIG_SD_PLUGINBOOT
+
+#define MXC_DCD_ITEM(i, addr, val)   \
+        ldr r0 , =addr; \
+        ldr r1 , =val; \
+        str r1 , [r0,#0];
+        
+#else /*CONFIG_SD_PLUGINBOOT*/
+
 #define MXC_DCD_ITEM(i, addr, val)   \
 dcd_node_##i:                        \
         .word CPU_2_BE_32(addr) ;     \
         .word CPU_2_BE_32(val)  ;     \
 
+#endif /*CONFIG_SD_PLUGINBOOT*/
+
 .section ".text.flasheader", "x"
+origin:
 	b	_start
 	.org	CONFIG_FLASH_HEADER_OFFSET
+
+#ifdef CONFIG_SD_PLUGINBOOT
+#define IRAM_RUM_START					(0x00910000)
+
+ivt_header:       .word 0x402000D1 /* Tag=0xD1, Len=0x0020, Ver=0x40 */
+app_code_jump_v:  .word IRAM_RUM_START + ( plugin_start - origin)
+reserv1:          .word 0x0
+dcd_ptr:          .word 0x0
+boot_data_ptr:	  .word IRAM_RUM_START + ( boot_data - origin )
+self_ptr:         .word IRAM_RUM_START + ( ivt_header - origin )
+app_code_csf:     .word 0x0
+reserv2:          .word 0x0
+boot_data:        .word IRAM_RUM_START
+image_len:        .word 0x4000
+plugin:           .word 0x1
+
+ivt2_header:      .word 0x402000D1 /* Tag=0xD1, Len=0x0020, Ver=0x40 */
+app2_code_jump_v: .word _start
+reserv3:          .word 0x0
+dcd2_ptr:         .word 0x0
+boot_data2_ptr:	  .word boot_data2
+self_ptr2:        .word ivt2_header
+app_code_csf2:    .word 0x0
+reserv4:          .word 0x0
+
+boot_data2:       .word TEXT_BASE
+image_len2:       .word _end_of_copy  - TEXT_BASE + CONFIG_FLASH_HEADER_OFFSET
+plugin2:          .word 0x0
+
+/* Here starts the plugin code */
+plugin_start:
+/* Save the return address and the function arguments */
+    push    {r0-r4, lr}
+
+#else /*CONFIG_SD_PLUGINBOOT*/
 
 ivt_header:       .word 0x402000D1 /* Tag=0xD1, Len=0x0020, Ver=0x40 */
 app_code_jump_v:  .word _start
@@ -60,6 +107,8 @@ image_len:        .word __hab_data_end - TEXT_BASE + CONFIG_FLASH_HEADER_OFFSET
 image_len:        .word _end_of_copy  - TEXT_BASE + CONFIG_FLASH_HEADER_OFFSET
 #endif
 plugin:           .word 0x0
+
+#endif /*CONFIG_SD_PLUGINBOOT*/
 
 #if defined CONFIG_MX6DL_DDR3
 dcd_hdr:          .word 0x40E002D2 /* Tag=0xD2, Len=91*8 + 4 + 4, Ver=0x40 */
@@ -308,5 +357,62 @@ MXC_DCD_ITEM(89, MMDC_P0_BASE_ADDR + 0x01c, 0x00000000)
 MXC_DCD_ITEM(90, MMDC_P0_BASE_ADDR + 0x404, 0x00011006)
 
 #endif
+
+#ifdef CONFIG_SD_PLUGINBOOT
+#define ROM_API_TABLE_BASE_ADDR         (0x000000C0)
+#define ROM_API_HWCNFG_SETUP_OFFSET     (0x08)
+
+/* add by shenchun test for trustzone */
+	bl _test1
+
+
+/*
+    The following is to fill in those arguments for this ROM function
+    pu_irom_hwcnfg_setup(void **start, size_t *bytes, const void *boot_data)
+
+    This function is used to copy data from the storage media into DDR.
+
+    start - Initial (possibly partial) image load address on entry.  Final image load address on exit.
+    bytes - Initial (possibly partial) image size on entry.  Final image size on exit.
+    boot_data - Initial @ref ivt Boot Data load address.
+*/
+
+    adr r0, DDR_DEST_ADDR
+    adr r1, COPY_SIZE
+    adr r2, BOOT_DATA
+
+/*
+ * check the _pu_irom_api_table for the address
+ * pu_irom_hwcnfg_setup is in 0x1f20
+ */
+before_calling_rom___pu_irom_hwcnfg_setup:
+    ldr r3, =ROM_API_TABLE_BASE_ADDR
+	ldr r4, [r3, #ROM_API_HWCNFG_SETUP_OFFSET]
+    blx r4      /* This address might change in future ROM versions */
+after_calling_rom___pu_irom_hwcnfg_setup:
+
+/* To return to ROM from plugin, we need to fill in these argument.
+ * Here is what need to do:
+ * Need to construct the paramters for this function before return to ROM:
+ * plugin_download(void **start, size_t *bytes, UINT32 *ivt_offset)
+ */
+    pop {r0-r4, lr}
+    ldr r5, DDR_DEST_ADDR
+    str r5, [r0]
+    ldr r5, COPY_SIZE
+    str r5, [r1]
+    mov r5, #0x400  /* Point to the second IVT table at offset 0x42C */
+    add r5, r5, #0x2C
+    str r5, [r2]
+    mov r0, #1
+
+    bx lr          /* return back to ROM code */
+
+DDR_DEST_ADDR:    .word   TEXT_BASE
+COPY_SIZE:        .word   _end_of_copy  - TEXT_BASE + CONFIG_FLASH_HEADER_OFFSET
+BOOT_DATA:        .word   TEXT_BASE
+                  .word   _end_of_copy  - TEXT_BASE + CONFIG_FLASH_HEADER_OFFSET
+                  .word   0	
+#endif /*CONFIG_SD_PLUGINBOOT*/                  
 
 #endif
