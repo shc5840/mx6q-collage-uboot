@@ -363,8 +363,7 @@ MXC_DCD_ITEM(90, MMDC_P0_BASE_ADDR + 0x404, 0x00011006)
 #define ROM_API_HWCNFG_SETUP_OFFSET     (0x08)
 
 /* add by shenchun test for trustzone */
-	bl _test1
-
+	bl _sctest
 
 /*
     The following is to fill in those arguments for this ROM function
