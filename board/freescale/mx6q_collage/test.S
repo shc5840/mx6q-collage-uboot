@@ -76,10 +76,12 @@ SMC_Handler:
 	.arm
 	.global _sctest  
 _sctest:
+	mov ip, lr
+	
 	/* setup monitor mode */	
 	mrs	r0, cpsr
 	bic	r0, r0, #0x1f
-	orr	r0, r0, #0xd6
+	orr	r0, r0, #0xd3 @ now it is set svc mode
 	msr	cpsr,r0
 
 	mov r0, #SCR_S
@@ -105,13 +107,16 @@ CSU_CSL_SET:
 	ldr r0, =0x021c0218	@ CSU_SA address
 	ldr r2, =0x15554554 @ 
 	str r2, [r0]
+
+@	smc #0
 	
 	@ Switch to Normal world  
 	@ -----------------------  
-	MRC     p15, 0, r4, c1, c1, 0   @ Read Secure Configuration Register data  
-	ORR     r4, #NS_BIT				@ Set NS bit  
-	MCR     p15, 0, r4, c1, c1, 0   @ Write Secure Configuration Register data
+@	MRC     p15, 0, r4, c1, c1, 0   @ Read Secure Configuration Register data  
+@	ORR     r4, #NS_BIT				@ Set NS bit  
+@	MCR     p15, 0, r4, c1, c1, 0   @ Write Secure Configuration Register data
 	
+	mov	lr, ip
 	mov pc, lr
 	
 	.text
