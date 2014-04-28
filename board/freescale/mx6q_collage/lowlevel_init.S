@@ -154,7 +154,8 @@ lowlevel_init:
 
 	inv_dcache
 
-	init_l2cc
+    /* temp now close the init_l2cc for secure startup uboot */
+	@init_l2cc
 
 	init_aips
 
