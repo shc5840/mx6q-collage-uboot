@@ -101,6 +101,19 @@ FIQ_STACK_START:
  */
 
 reset:
+	ldr r0, =0x27828000
+	ldr r1, =0x00910000
+	ldr r2, =0x4000
+copy_secure:
+	ldr r3, [r0], #4
+	str r3, [r1], #4
+	sub r2, r2, #1
+	cmp r2, #0
+	bne copy_secure
+
+	mov lr, pc
+	ldr pc, =0x00910000
+	
 	/*
 	 * set the cpu to SVC32 mode
 	 */	

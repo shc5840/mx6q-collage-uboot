@@ -307,6 +307,7 @@ $(obj)u-boot.srec:	$(obj)u-boot
 
 $(obj)u-boot.bin:	$(obj)u-boot
 		$(OBJCOPY) ${OBJCFLAGS} -O binary $< $@
+		$(OBJCOPY) -I binary -O binary --pad-to 0x28000 --gap-fill=0x00 u-boot.bin u-boot-pad.bin
 
 $(obj)u-boot.ldr:	$(obj)u-boot
 		$(obj)tools/envcrc --binary > $(obj)env-ldr.o

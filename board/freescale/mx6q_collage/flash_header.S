@@ -104,7 +104,8 @@ boot_data:        .word TEXT_BASE
 #ifdef CONFIG_SECURE_BOOT
 image_len:        .word __hab_data_end - TEXT_BASE + CONFIG_FLASH_HEADER_OFFSET
 #else
-image_len:        .word _end_of_copy  - TEXT_BASE + CONFIG_FLASH_HEADER_OFFSET
+@image_len:        .word _end_of_copy  - TEXT_BASE + CONFIG_FLASH_HEADER_OFFSET
+image_len:        .word 0x28000 + CONFIG_MX6_SECURE_BIN
 #endif
 plugin:           .word 0x0
 
